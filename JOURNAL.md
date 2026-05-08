@@ -9,3 +9,4 @@
   - Explored text formatting, and figure insertion using the `graphicx` package (`doc_002.tex` through `doc_007.tex`).
   - Created a cleanup script `cleaner.sh` to quickly remove intermediate LaTeX build artifacts.
   - Explored lists (itemize, enumerate) and mathematical typesetting (`doc_008.tex` through `doc_013.tex`).
+  - Learned about basic document structure (`doc_014.tex` through `doc_016.tex`).
