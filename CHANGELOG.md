@@ -15,4 +15,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Created `doc_002.tex` through `doc_007.tex` exploring text formatting, and image insertion.
 - Created `doc_008.tex` through `doc_013.tex` learning about lists (unordered, ordered) and mathematical expressions.
 - Created `doc_014.tex` through `doc_016.tex` covering basic document structure.
+- Created `doc_017.tex` through `doc_021.tex` covering table creation and formatting.
+- Completed the Overleaf "Learn LaTeX in 30 minutes" tutorial.
 - Added `images/` directory for storing graphic assets.

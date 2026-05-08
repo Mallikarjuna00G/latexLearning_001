@@ -10,3 +10,5 @@
   - Created a cleanup script `cleaner.sh` to quickly remove intermediate LaTeX build artifacts.
   - Explored lists (itemize, enumerate) and mathematical typesetting (`doc_008.tex` through `doc_013.tex`).
   - Learned about basic document structure (`doc_014.tex` through `doc_016.tex`).
+  - Learned how to create and format tables (`doc_017.tex` through `doc_021.tex`).
+  - **Milestone:** Successfully completed the "Learn LaTeX in 30 minutes" tutorial (fun fact: it actually took over 5 hours!).

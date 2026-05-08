@@ -1,5 +1,16 @@
 # Release Notes
 
+## [v0.2.0] - "Learn LaTeX in 30 Minutes" Completion
+
+**Milestone Reached!**
+Successfully completed the "Learn LaTeX in 30 minutes" tutorial from Overleaf (which practically took more than 5 hours to fully explore and practice).
+
+**Highlights:**
+- **Text & Structure:** Mastered the preamble, basic document structures, and text formatting.
+- **Lists & Math:** Learned how to utilize itemize/enumerate environments and typeset mathematical equations.
+- **Graphics & Tables:** Gained practical experience inserting images via the `graphicx` package and structuring data into tables.
+- **Automation:** Created a custom `cleaner.sh` script to keep the repository free of LaTeX build artifacts (`.aux`, `.log`, etc.).
+
 ## [v0.1.0] - Project Inception
 
 Welcome to the LaTeX learning repository! 
