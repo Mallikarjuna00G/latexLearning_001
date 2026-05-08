@@ -11,3 +11,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added standard `.gitignore` for LaTeX environments.
 - Created `latexIn30Min/` directory for following the Overleaf "Learn LaTeX in 30 minutes" tutorial.
 - Created `doc_001.tex` as a basic introductory "Hello World" document.
+- Added `cleaner.sh` script to automate removal of LaTeX build artifacts.
+- Created `doc_002.tex` through `doc_007.tex` exploring text formatting, and image insertion.
+- Added `images/` directory for storing graphic assets.
