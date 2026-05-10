@@ -29,3 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated shell scripts (`genDvi.sh`, `genPdf.sh`, `genSvg.sh`, `genPng.sh`) and `cleaner.sh` to leverage an isolated `build/` directory for cleaner project organization.
 - Added `genHtml.sh` utilizing `make4ht` to generate HTML output directly into `build/htmlOuts/`.
 - Created `gitClean.sh` wrapper script around `git clean -Xdf` to aggressively sweep ignored files and rebuild the `build/` structure.
+- Modified `.gitignore` to un-ignore `*.pdf`, `*.ps`, and `*.eps` allowing tracking of static image assets.
+- Updated `genSvg.sh` to simultaneously generate both a standard SVG and a path-embedded (`_noFont`) SVG.
+- Completed learnlatex.org Lesson 05.
+- Added exercise files (`les05_001.tex`, `les05_exrc_01_01.tex`, `les05_more_01.tex`, etc.) covering different document classes like `letter`.

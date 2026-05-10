@@ -32,7 +32,9 @@ Learning Latex tool
 ### `latex`
 
 General usage: `latex <filename.tex>`
+
 Project usage: `bash genDvi.sh <filename.tex>`
+
 Generates `dvi` files.
 
 ```console
@@ -54,7 +56,9 @@ Compiled with xpdf version 4.04
 ### `pdflatex`
 
 General usage: `pdflatex <filename.tex>`
+
 Project usage: `bash genPdf.sh <filename.tex>`
+
 Generates `pdf` files.
 
 ```console
@@ -76,9 +80,11 @@ Compiled with xpdf version 4.04
 ### `dvisvgm`
 
 Converts `dvi` files to `svg` files.
+
 General usage: 
 - `dvisvgm <filename.dvi>`
 - `dvisvgm --no-font --no-merge <filename.dvi>`
+
 Project usage: `bash genSvg.sh <filename.tex>`
 
 ```console
@@ -89,7 +95,9 @@ dvisvgm 3.4.4
 ### `pdftoppm`
 
 Converts `pdf` files to `png` files.
+
 General usage: `pdftoppm -r 300 -png <filename.pdf> <output_name>`
+
 Project usage: `bash genPng.sh <filename.tex>`
 
 ```console
@@ -102,7 +110,9 @@ Copyright 1996-2011, 2022 Glyph & Cog, LLC
 ### `make4ht`
 
 Converts `.tex` files to HTML documents.
+
 General usage: `make4ht <filename.tex>`
+
 Project usage: `bash genHtml.sh <filename.tex>` (Outputs to `./build/htmlOuts`)
 
 ```console

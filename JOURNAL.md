@@ -30,4 +30,7 @@
   - Experimented with HTML output using `make4ht` and encapsulated it in a `genHtml.sh` script, routing outputs to `build/htmlOuts/`.
   - Explored cleaning ignored files via `git clean -Xdf` and wrapped it inside `gitClean.sh` (along with recreating the `build/` directory) for a quick, aggressive workspace sweep.
   - **Milestone:** Successfully completed Lesson 04 from learnlatex.org, including additional exercises and more detailed document structures (`les04_exrc*.tex`, `les04_more*.tex`).
-
+  - Modified `.gitignore` by explicitly removing global ignores for `*.pdf`, `*.ps`, and `*.eps` files. Since all auto-generated artifacts are now successfully caught by the `build/` folder ignore rule, this change allows git to track graphic vectors used as image inputs for documents.
+  - Encountered an issue where `pdflatex` failed to run when using `--output-directory=build` because the `build` directory was missing; resolved it by recreating the directory.
+  - Updated `genSvg.sh` to generate two variations of an SVG file per compile: one standard and one using `--no-font` to embed paths directly (`_noFont.svg`), ensuring robust scaling across different viewers.
+  - **Milestone:** Successfully completed Lesson 05 from learnlatex.org, focusing on different document classes (like `letter`) and creating numerous structural exercise files (`les05_*.tex`).

@@ -14,4 +14,5 @@ if [ ! -f "$dvi_file" ] || [ "$1" -nt "$dvi_file" ]; then
 fi
 
 # Generate the SVG
-dvisvgm --no-font --no-merge -o "./build/${1%.tex}.svg" "./build/${1%.tex}.dvi"
+dvisvgm --no-font --no-merge -o "./build/${1%.tex}_noFont.svg" "./build/${1%.tex}.dvi"
+dvisvgm --no-merge -o "./build/${1%.tex}.svg" "./build/${1%.tex}.dvi"

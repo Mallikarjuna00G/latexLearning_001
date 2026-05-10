@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v0.4.0] - learnlatex.org Lesson 05 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 05 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **Document Classes:** Explored different document classes such as `letter` to understand structural differences in LaTeX beyond the standard `article` class.
+- **Git Ignore Fixes:** Revised the `.gitignore` to un-ignore generic image extensions (`.pdf`, `.eps`, `.ps`), recognizing that the `build/` directory correctly handles generated artifacts, freeing us up to track actual static image assets.
+- **Enhanced SVG Generation:** Updated `genSvg.sh` to simultaneously build two SVG versions (`.svg` and `_noFont.svg`), ensuring robust text rendering on any device by embedding text as vector paths.
+
 ## [v0.3.0] - learnlatex.org Lesson 04 Completion
 
 **Milestone Reached!**
