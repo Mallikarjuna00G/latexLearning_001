@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- Updated `.gitignore` to ignore `make4ht` generated files (`.html`, `.css`, `.tmp`).
 - Created the foundational documentation structure (`README.md`, `JOURNAL.md`, `RELEASE_NOTES.md`, `CHANGELOG.md`, `AGENTS.md`).
 - Added standard `.gitignore` for LaTeX environments.
 - Created `latexIn30Min/` directory for following the Overleaf "Learn LaTeX in 30 minutes" tutorial.
@@ -18,3 +19,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Created `doc_017.tex` through `doc_021.tex` covering table creation and formatting.
 - Completed the Overleaf "Learn LaTeX in 30 minutes" tutorial.
 - Added `images/` directory for storing graphic assets.
+- Started `learnLatex_org/` directory for exercises from learnlatex.org.
+- Created `first.tex` and `first_comment.tex` as introductory files.
+- Added `les04_01.tex` through `les04_03.tex` covering title, author, and date generation, as well as non-breaking spaces.
+- Created `genDvi.sh` and `genPdf.sh` scripts for simplified LaTeX compilation, including argument checking to prevent hangs.
+- Added `genSvg.sh` and `genPng.sh` for generating SVG and PNG images from LaTeX files.
+- Completed learnlatex.org Lesson 04.
+- Added various exercise and 'more' files (`les04_exrc_01.tex`, `les04_more_01.tex`, etc.) for Lesson 04.
+- Updated shell scripts (`genDvi.sh`, `genPdf.sh`, `genSvg.sh`, `genPng.sh`) and `cleaner.sh` to leverage an isolated `build/` directory for cleaner project organization.

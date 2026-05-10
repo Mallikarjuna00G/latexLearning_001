@@ -12,3 +12,20 @@
   - Learned about basic document structure (`doc_014.tex` through `doc_016.tex`).
   - Learned how to create and format tables (`doc_017.tex` through `doc_021.tex`).
   - **Milestone:** Successfully completed the "Learn LaTeX in 30 minutes" tutorial (fun fact: it actually took over 5 hours!).
+  - **Configuration Update:** Updated `.gitignore` to include `make4ht` output files (`.html`, `.css`, `.tmp`) to prevent tracking web-related build artifacts.
+
+## 2026-05-10
+- **LearnLatex.org Tutorial:**
+  - Started a new tutorial from [learnlatex.org](https://www.learnlatex.org/).
+  - Created a new directory `learnLatex_org/` for these exercises.
+  - Worked through initial documents (`first.tex`, `first_comment.tex`) and early lessons (`les04_01.tex` through `les04_03.tex`).
+  - Learned about non-breaking spaces (ties) represented by the tilde `~` character, which prevent unwanted line breaks between connected words or initials (e.g., `A.~N.~Other`).
+  - Created simple shell scripts (`genDvi.sh` and `genPdf.sh`) to streamline compiling `.tex` files, and added argument checking to them to prevent the compiler from hanging when no input file is provided.
+  - Learned that the `-z` flag in bash conditional expressions checks if a string is empty (zero length), which is useful for verifying if script arguments are provided.
+  - Wrote additional conversion scripts (`genSvg.sh` and `genPng.sh`) for rendering `.tex` output into images, learning basic bash syntax troubleshooting in the process.
+  - Learned about Bash parameter expansion for suffix removal (`${1%.tex}`), which efficiently strips the `.tex` extension so it can be replaced with other extensions like `.dvi` or `.pdf`.
+  - Added smart recompilation logic to `genPng.sh` using the Bash `-nt` operator (newer than) to only compile the PDF if the `.tex` file has been updated, otherwise just reusing the existing PDF.
+  - Configured output directories for `dvisvgm` (using `-o`) and `pdftoppm` so that all generated images and intermediate files are cleanly routed to an isolated `build/` directory.
+  - Added the `-singlefile` flag to `pdftoppm` in `genPng.sh` to prevent it from automatically appending page numbers (like `-1`) to the generated PNG filenames.
+  - **Milestone:** Successfully completed Lesson 04 from learnlatex.org, including additional exercises and more detailed document structures (`les04_exrc*.tex`, `les04_more*.tex`).
+

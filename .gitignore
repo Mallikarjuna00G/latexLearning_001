@@ -146,13 +146,16 @@ acs-*.bib
 *.glog
 *.gtex
 
-# htlatex
+# htlatex / make4ht
 *.4ct
 *.4tc
 *.idv
 *.lg
 *.trc
 *.xref
+*.html
+*.css
+*.tmp
 
 # hypdoc
 *.hd
@@ -344,3 +347,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+
+# Others
+build

@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v0.3.0] - learnlatex.org Lesson 04 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 04 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **Title and Metadata:** Learned how to generate document titles using `\title`, `\author`, `\date`, and `\maketitle`.
+- **Typographical Conventions:** Gained an understanding of non-breaking spaces (ties) using the `~` character.
+- **Build Automation Improvements:** Overhauled the compilation workflow. Created dedicated bash scripts (`genPdf.sh`, `genDvi.sh`, `genPng.sh`, `genSvg.sh`) with intelligent compilation logic (using timestamps) to convert `.tex` files into various output formats. All build artifacts are now cleanly isolated into a `build/` directory!
+
 ## [v0.2.0] - "Learn LaTeX in 30 Minutes" Completion
 
 **Milestone Reached!**
