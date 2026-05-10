@@ -1,0 +1,65 @@
+% Lesson 07: Including Graphics and positioning
+% Link: https://www.learnlatex.org/en/lesson-07#exercises
+% Exercise
+% textwidth: takes physical paper width
+% linewidth: Takes width limit set for line
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{lipsum}    % Use dummy text as a filler
+
+\begin{document}
+	\lipsum[1-4]    % Just a few filler paragraphs
+	
+	Test location.
+	
+	% h - Here if possible
+	% t - top of the page
+	% b - bottom of the page
+	% p - A dedicated page only for floats
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.5\textwidth]{images/les07_04-2.png} % `example-imagea.png` is acting as a placeholder image to avoid error until we mention actual image link
+		\caption{An example image}
+	\end{figure}
+	
+	\lipsum[6-8]    % Just a few filler paragraphs
+	
+	\twocolumn[text]
+	
+	\lipsum[1-2]    % Just a few filler paragraphs
+	
+	Test location.
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.5\textwidth]{images/les07_04-2.png} % `example-imagea.png` is acting as a placeholder image to avoid error until we mention actual image link
+		\caption{An example image}
+	\end{figure}
+	
+	\lipsum[1-2]    % Just a few filler paragraphs
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/les07_04-2.png} % `example-imagea.png` is acting as a placeholder image to avoid error until we mention actual image link
+		\caption{An example image}
+	\end{figure}
+	
+	\lipsum[1-2]    % Just a few filler paragraphs
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\linewidth]{images/les07_04-2.png} % `example-imagea.png` is acting as a placeholder image to avoid error until we mention actual image link
+		\caption{An example image}
+	\end{figure}
+	
+	\lipsum[1-3]    % Just a few filler paragraphs
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{images/les07_04-2.png} % `example-imagea.png` is acting as a placeholder image to avoid error until we mention actual image link
+		\caption{An example image}
+	\end{figure}
+	
+	\lipsum[1-2]    % Just a few filler paragraphs
+\end{document}

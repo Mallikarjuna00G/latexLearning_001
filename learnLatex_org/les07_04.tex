@@ -1,0 +1,25 @@
+% Lesson 07: Including Graphics and positioning
+% Link: https://www.learnlatex.org/en/lesson-07
+% Making images float
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{lipsum}    % Use dummy text as a filler
+
+\begin{document}
+	\lipsum[1-4]    % Just a few filler paragraphs
+	
+	Test location.
+	
+	% h - Here if possible
+	% t - top of the page
+	% b - bottom of the page
+	% p - A dedicated page only for floats
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.5\textwidth]{example-image-a.png} % `example-imagea.png` is acting as a placeholder image to avoid error until we mention actual image link
+		\caption{An example image}
+	\end{figure}
+	
+	\lipsum[6-10]    % Just a few filler paragraphs
+\end{document}

@@ -39,3 +39,8 @@
   - Used the `lipsum` package to generate dummy text for layout testing.
   - Learned how to define custom commands using `\newcommand` to encapsulate styling (like bold or colored text), including how to pass arguments and define optional arguments.
   - Briefly touched upon `\NewDocumentCommand` from the `xparse` package (integrated into modern LaTeX kernels) for creating more advanced custom commands.
+  - **Milestone:** Successfully completed Lesson 07 from learnlatex.org, focusing on including graphics and float positioning.
+  - Learned to use the `graphicx` package to insert images (`\includegraphics`) and manipulate their appearance using parameters like `width`, `height`, `clip`, and `trim`.
+  - Explored `figure` environments to make graphics "float" and understand position specifiers (`h`, `t`, `b`, `p`).
+  - Configured LaTeX to look for image assets in specific subdirectories using `\graphicspath{{images/}{images2}}`.
+  - Learned about the `float` package to force exact placement using the `[H]` specifier, and the `trivfloat` package to define custom float environments.

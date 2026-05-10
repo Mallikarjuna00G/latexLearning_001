@@ -35,3 +35,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added exercise files (`les05_001.tex`, `les05_exrc_01_01.tex`, `les05_more_01.tex`, etc.) covering different document classes like `letter`.
 - Completed learnlatex.org Lesson 06.
 - Added files (`les06_*.tex`) exploring packages (`babel`, `geometry`, `lipsum`) and defining custom commands via `\newcommand` and `\NewDocumentCommand`.
+- Completed learnlatex.org Lesson 07.
+- Added files (`les07_*.tex`) exploring the `graphicx` package, image manipulation (`\includegraphics`), floating environments (`figure`), `\graphicspath`, and custom floats via the `float` and `trivfloat` packages.
+- Added `images/` and `images2/` directories to demonstrate configuring multiple graphics paths.

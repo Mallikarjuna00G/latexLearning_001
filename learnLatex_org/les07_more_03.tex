@@ -1,0 +1,18 @@
+% Lesson 07: Including Graphics and positioning
+% https://www.learnlatex.org/en/more-07#other-types-of-float
+% More: Other types of float
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{trivfloat}
+
+% Creating custom float environment
+\trivfloat{image}
+
+\begin{document}
+	\begin{image}
+		\centering
+		\includegraphics[width=0.5\textwidth]{example-image}
+		\caption{An example image}
+	\end{image}
+\end{document}

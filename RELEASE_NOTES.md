@@ -1,5 +1,16 @@
 # Release Notes
 
+## [v0.6.0] - learnlatex.org Lesson 07 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 07 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **Graphics Inclusion:** Mastered the `graphicx` package to import, resize, and crop images.
+- **Float Management:** Explored floating environments (`figure`) and their placement specifiers to properly position graphics within the document flow.
+- **Organization:** Configured `\graphicspath` to cleanly separate image assets into dedicated `images/` and `images2/` directories.
+- **Advanced Floats:** Leveraged `float` and `trivfloat` packages for forced positioning (`[H]`) and creating custom float types.
+
 ## [v0.5.0] - learnlatex.org Lesson 06 Completion
 
 **Milestone Reached!**

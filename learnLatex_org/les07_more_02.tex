@@ -1,0 +1,18 @@
+% Lesson 07: Including Graphics and positioning
+% Link: https://www.learnlatex.org/en/more-07#placing-floats
+% More: Placing floats
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{lipsum}    % dummy text for filler
+\usepackage{float}
+
+\begin{document}
+	\lipsum[1-7]
+	\begin{figure}[H]    % Absolute here. Not recommended as it might create large space in the document.
+		\centering
+		\includegraphics[width=0.5\textwidth]{example-image}
+		\caption{An example image}
+	\end{figure}
+	\lipsum[8-15]
+\end{document}

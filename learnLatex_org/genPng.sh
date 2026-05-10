@@ -14,4 +14,5 @@ if [ ! -f "$pdf_file" ] || [ "$1" -nt "$pdf_file" ]; then
 fi
 
 # Generate the PNG
-pdftoppm -singlefile -r 300 -png "$pdf_file" "./build/${1%.tex}"
+# pdftoppm -singlefile -r 300 -png "$pdf_file" "./build/${1%.tex}"
+pdftoppm -r 300 -png "$pdf_file" "./build/${1%.tex}"
