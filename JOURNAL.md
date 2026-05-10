@@ -27,5 +27,7 @@
   - Added smart recompilation logic to `genPng.sh` using the Bash `-nt` operator (newer than) to only compile the PDF if the `.tex` file has been updated, otherwise just reusing the existing PDF.
   - Configured output directories for `dvisvgm` (using `-o`) and `pdftoppm` so that all generated images and intermediate files are cleanly routed to an isolated `build/` directory.
   - Added the `-singlefile` flag to `pdftoppm` in `genPng.sh` to prevent it from automatically appending page numbers (like `-1`) to the generated PNG filenames.
+  - Experimented with HTML output using `make4ht` and encapsulated it in a `genHtml.sh` script, routing outputs to `build/htmlOuts/`.
+  - Explored cleaning ignored files via `git clean -Xdf` and wrapped it inside `gitClean.sh` (along with recreating the `build/` directory) for a quick, aggressive workspace sweep.
   - **Milestone:** Successfully completed Lesson 04 from learnlatex.org, including additional exercises and more detailed document structures (`les04_exrc*.tex`, `les04_more*.tex`).
 

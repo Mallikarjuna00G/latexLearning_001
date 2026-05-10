@@ -27,3 +27,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Completed learnlatex.org Lesson 04.
 - Added various exercise and 'more' files (`les04_exrc_01.tex`, `les04_more_01.tex`, etc.) for Lesson 04.
 - Updated shell scripts (`genDvi.sh`, `genPdf.sh`, `genSvg.sh`, `genPng.sh`) and `cleaner.sh` to leverage an isolated `build/` directory for cleaner project organization.
+- Added `genHtml.sh` utilizing `make4ht` to generate HTML output directly into `build/htmlOuts/`.
+- Created `gitClean.sh` wrapper script around `git clean -Xdf` to aggressively sweep ignored files and rebuild the `build/` structure.

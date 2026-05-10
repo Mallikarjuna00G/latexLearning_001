@@ -6,9 +6,6 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-latex "$1"
-
-
 dvi_file="./build/${1%.tex}.dvi"
 
 if [ ! -f "$dvi_file" ] || [ "$1" -nt "$dvi_file" ]; then

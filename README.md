@@ -13,6 +13,19 @@ Learning Latex tool
 ## Environment setup instruction
 
 1. Create `build` folder where you are running the bash scripts.
+2. **TeXstudio Configuration**: To route all build artifacts to the `build/` directory directly from the TeXstudio GUI, apply these settings:
+   - Go to `Options -> Configure TeXstudio` and ensure **Show Advanced Options** is checked in the bottom left corner.
+   - Navigate to the **Build** tab on the left panel.
+   - Under **Meta Commands**, modify **Build & View** to include the `--output-directory` flag:
+     ```
+     pdflatex -synctex=1 -interaction=nonstopmode --output-directory=build %.tex | txs:///view
+     ```
+   - Scroll down to the **Build Options** section, and look for **Additional Search Paths**.
+   - Set both **Log File** and **PDF File** to `./build`.
+
+   *Explanation:*
+   - *The `--output-directory=build` flag instructs the compiler to place all generated files (like `.aux`, `.log`, `.synctex.gz`, and the final `.pdf`) directly into the `build/` folder instead of cluttering your working directory.*
+   - *By default, TeXstudio expects to find the log files and the PDF in the same directory as your source code. By explicitly pointing the **Log File** and **PDF File** search paths to `./build`, you ensure that TeXstudio's internal PDF viewer and error parser can still locate and display your compiled documents perfectly!*
 
 ## Conversion tools
 
@@ -85,5 +98,17 @@ pdftoppm version 25.03.0
 Copyright 2005-2025 The Poppler Developers - http://poppler.freedesktop.org
 Copyright 1996-2011, 2022 Glyph & Cog, LLC
 ```
+
+### `make4ht`
+
+Converts `.tex` files to HTML documents.
+General usage: `make4ht <filename.tex>`
+Project usage: `bash genHtml.sh <filename.tex>` (Outputs to `./build/htmlOuts`)
+
+```console
+$ make4ht --version
+make4ht version v0.4c
+```
+
 
 **Note:** At this instant we prefer `pdftoppm` tool to generate `png` files over `dvipng` which takes `dvi` files as input; because, quality of the output was better from `pdftoppm` and i do not have time to tinker with `dvipng`.
