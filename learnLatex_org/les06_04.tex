@@ -1,0 +1,12 @@
+% Lesson 06: Extending Latex
+% Adding new functionality
+% Defining commands
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+
+\newcommand{\kw}[1]{\textcolor{blue}{\itshape #1}}    % \itshape is italic font
+
+\begin{document}
+	Something about \kw{apples} and \kw{oranges}.
+\end{document}

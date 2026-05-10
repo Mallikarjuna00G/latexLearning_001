@@ -1,0 +1,15 @@
+% Lesson 06: More
+% More definitions (custom commands)
+% \newcommand allows commands with up to nine arguments, the first of which may be optional.
+\documentclass{article}
+\usepackage[T1]{fontenc}
+
+\usepackage{xcolor}
+
+% we could make the color optional, defaulting to blue.
+\newcommand{\kw}[2][blue]{\textcolor{#1}{\itshape #2}}
+
+\begin{document}
+	Something about \kw{apples} and \kw[red]{oranges}.
+	
+\end{document}

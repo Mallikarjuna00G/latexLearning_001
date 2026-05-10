@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v0.5.0] - learnlatex.org Lesson 06 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 06 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **Packages:** Learned how to extend LaTeX functionality using packages, specifically exploring `babel` for language support/hyphenation and `geometry` for precise margin control.
+- **Dummy Text:** Discovered the `lipsum` package for quickly generating filler text to test document layouts.
+- **Custom Commands:** Mastered creating custom macros with `\newcommand` and `\NewDocumentCommand`, including support for mandatory and optional arguments, enabling cleaner and more semantic LaTeX source code.
+
 ## [v0.4.0] - learnlatex.org Lesson 05 Completion
 
 **Milestone Reached!**

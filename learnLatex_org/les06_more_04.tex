@@ -1,0 +1,17 @@
+% Lesson 06: More
+% Link: https://www.learnlatex.org/en/more-06
+% More definitions (custom commands)
+% For older than October 2020 LaTeX release
+\documentclass{article}
+\usepackage[T1]{fontenc}
+
+\usepackage{xparse} % Only needed for older LaTeX releases
+\usepackage{xcolor}
+
+% we could make the color optional, defaulting to blue.
+\NewDocumentCommand\kw{O{blue} m}{\textcolor{#1}{\itshape #2}}
+
+\begin{document}
+	Something about \kw{apples} and \kw[red]{oranges}.
+	
+\end{document}

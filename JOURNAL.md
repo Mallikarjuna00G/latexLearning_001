@@ -34,3 +34,8 @@
   - Encountered an issue where `pdflatex` failed to run when using `--output-directory=build` because the `build` directory was missing; resolved it by recreating the directory.
   - Updated `genSvg.sh` to generate two variations of an SVG file per compile: one standard and one using `--no-font` to embed paths directly (`_noFont.svg`), ensuring robust scaling across different viewers.
   - **Milestone:** Successfully completed Lesson 05 from learnlatex.org, focusing on different document classes (like `letter`) and creating numerous structural exercise files (`les05_*.tex`).
+  - **Milestone:** Successfully completed Lesson 06 from learnlatex.org, focusing on extending LaTeX.
+  - Explored using packages to modify LaTeX's default behavior, particularly `babel` for multilingual support (hyphenation, naming) and `geometry` for margin and page layout control.
+  - Used the `lipsum` package to generate dummy text for layout testing.
+  - Learned how to define custom commands using `\newcommand` to encapsulate styling (like bold or colored text), including how to pass arguments and define optional arguments.
+  - Briefly touched upon `\NewDocumentCommand` from the `xparse` package (integrated into modern LaTeX kernels) for creating more advanced custom commands.

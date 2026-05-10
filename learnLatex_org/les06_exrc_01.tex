@@ -1,0 +1,29 @@
+% Lesson 06: Extending Latex
+% Exercise 01: Try some other European languages with babel package
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+
+\begin{document}
+	
+	\section{Testing German}
+	
+	German is great for testing \textbf{hyphenation} and the \textbf{eszett (ß)}.
+	
+	\selectlanguage{german}
+	Alles hat ein Ende, nur die Wurst hat zwei. Wer rastet, der rostet, doch Übung macht den Meister.
+	
+	\selectlanguage{english}
+	\textbf{Translation:} Everything has an end, only the sausage has two. He who rests, rusts, but practice makes the master.
+	
+	\section{Testing French}
+	
+	French is excellent for testing \textbf{ligatures} and \textbf{special spacing} (French typography requires a space before colons and exclamation marks).
+	
+	\selectlanguage{french}
+	Le plus grand faible des hommes, c'est l'amour qu'ils ont pour la vie. Il faut manger pour vivre, et non pas vivre pour manger.
+	
+	\selectlanguage{english}
+	\textbf{Translation:} The greatest weakness of men is the love they have for life. One must eat to live, and not live to eat.
+	
+\end{document}

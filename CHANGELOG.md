@@ -33,3 +33,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated `genSvg.sh` to simultaneously generate both a standard SVG and a path-embedded (`_noFont`) SVG.
 - Completed learnlatex.org Lesson 05.
 - Added exercise files (`les05_001.tex`, `les05_exrc_01_01.tex`, `les05_more_01.tex`, etc.) covering different document classes like `letter`.
+- Completed learnlatex.org Lesson 06.
+- Added files (`les06_*.tex`) exploring packages (`babel`, `geometry`, `lipsum`) and defining custom commands via `\newcommand` and `\NewDocumentCommand`.
