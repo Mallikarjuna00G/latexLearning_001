@@ -1,0 +1,28 @@
+% Lesson 09: Cross-Referencing
+% The \label and \ref mechanism
+% Link: https://www.learnlatex.org/en/lesson-09#the-label-and-ref-mechanism
+\documentclass{article}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+	Hey world!
+	
+	This is a first document.
+	
+	\section{Title of the first section}
+	
+	Text of material of the first section.
+	
+	\subsection{Subsection of the first section}
+	\label{subsec:labelone}
+	
+	Text of material of the first subsection.
+	
+	\begin{equation}
+		e^{i\pi} + 1 = 0
+		\label{eq:labeltwo}
+	\end{equation}
+	
+	% Putting in a tilde means LaTeX won’t break the line there.
+	In subsection~\ref{subsec:labelone} is equation~\ref{eq:labeltwo}.
+\end{document}

@@ -1,5 +1,14 @@
 # Release Notes
 
+## [v0.8.0] - learnlatex.org Lesson 09 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 09 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **Cross-Referencing:** Learned the `\label` / `\ref` mechanism for creating internal document references to sections, subsections, and equations.
+- **Hyperlinks:** Used the `hyperref` package with `[hidelinks]` to turn all cross-references into clickable PDF hyperlinks without visual clutter.
+
 ## [v0.7.0] - learnlatex.org Lesson 08 Completion
 
 **Milestone Reached!**

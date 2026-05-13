@@ -69,3 +69,7 @@
   - Defined custom column types using `\newcolumntype` (e.g., `\newcolumntype{B}{>{\bfseries}c}`).
   - Explored vertical tricks: nesting a `tabular` inside a cell, and using the optional `[t]`/`[b]` alignment argument for vertical baseline control.
   - Learned about `\arraystretch` for globally adjusting line spacing in tables.
+  - **Milestone:** Successfully completed Lesson 09 from learnlatex.org, focusing on cross-referencing.
+  - Learned the `\label` and `\ref` mechanism for creating internal document references to sections, subsections, and equations.
+  - Used the tilde `~` (non-breaking space) before `\ref` to prevent line breaks between the reference label text and the reference number.
+  - Explored the `hyperref` package to turn cross-references into clickable hyperlinks, using the `[hidelinks]` option for a clean visual appearance without colored boxes.

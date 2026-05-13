@@ -1,0 +1,16 @@
+% Lesson 09: Cross-Referencing
+% Making cross-references into links
+% Link: https://www.learnlatex.org/en/more-09#making-cross-references-into-links
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+	\section{Introduction}
+	Some exciting text with a reference~\ref{sec:next}.
+	
+	\section{Next thing}
+	\label{sec:next}
+	
+	More text here.
+\end{document}
