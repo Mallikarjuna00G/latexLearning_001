@@ -1,0 +1,21 @@
+% Lesson 12: Citations and references
+% The BibTeX workflow with natbib
+% Link: https://www.learnlatex.org/en/lesson-12#the-bibtex-workflow-with-natbib
+\documentclass{article}
+\usepackage[T1]{fontenc}
+
+% Need to use `bibtex` executable
+\usepackage{natbib}
+
+\begin{document}
+	The mathematics showcase is from \cite{Graham1995}, whereas there is some chemistry in \cite{Thomas2008}.
+
+	Some parenthetical citations: \citep{Graham1995} and then \citep[p.~56]{Thomas2008}
+	
+	\citep[See][pp.~45--48]{Graham1995}
+	
+	Together \citep{Graham1995, Thomas2008}
+	
+	\bibliographystyle{plainnat}
+	\bibliography{learnlatex}
+\end{document}

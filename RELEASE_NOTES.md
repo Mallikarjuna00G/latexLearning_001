@@ -1,5 +1,16 @@
 # Release Notes
 
+## [v0.11.0] - learnlatex.org Lesson 12 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 12 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **BibTeX Workflow (natbib):** Learned the older citation workflow using the `natbib` package with `bibtex` as the backend processor, including `\cite`, `\citep` (with optional page numbers and prenotes), `\bibliographystyle`, and `\bibliography`.
+- **Biblatex Workflow (biber):** Practiced the modern citation workflow using the `biblatex` package with `biber` as the default backend, including `\addbibresource`, `\autocite`, `\parencite`, `\textcite`, `\citetitle`, and `\printbibliography`.
+- **Bibliography Database:** Created a `.bib` file with `@article` and `@book` entry types as a shared citation source.
+- **Build Automation:** Created `genPdfWithCitation.sh` to automate the 4-step compilation (pdflatex → bibtex/biber → pdflatex → pdflatex), with smart auto-detection of the correct backend by parsing the `.tex` preamble.
+
 ## [v0.10.0] - learnlatex.org Lesson 11 Completion
 
 **Milestone Reached!**

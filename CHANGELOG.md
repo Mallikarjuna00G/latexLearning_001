@@ -50,3 +50,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Completed learnlatex.org Lesson 11.
 - Added files (`les11_01.tex` through `les11_05.tex`) covering formatting in LaTeX: paragraph spacing with the `parskip` package (`[parfill]` option), explicit horizontal and vertical spacing (`\hspace`, `\vspace`), text formatting commands (`\textbf`, `\textit`, `\textrm`, `\textsf`, `\texttt`, `\textsc`), declaration-style font switching (`\itshape`, `\bfseries`) for running text, and font size commands (`\large`, `\small`) with `\par` for proper paragraph termination.
 - Added `les11_more_01.tex` exploring `\noindent` for suppressing paragraph indentation on individual paragraphs.
+- Completed learnlatex.org Lesson 12.
+- Added `learnlatex.bib` bibliography database with sample `@article` and `@book` entries used across Lesson 12 exercises.
+- Added `les12_01.tex` demonstrating the older BibTeX workflow with `natbib` package: `\cite`, `\citep` (parenthetical with optional page/prenote arguments), `\bibliographystyle{plainnat}`, and `\bibliography{learnlatex}`.
+- Added `les12_02.tex` demonstrating the modern `biblatex` workflow with `biber` backend: `\addbibresource`, `\autocite`, `\parencite`, `\textcite`, `\citetitle`, and `\printbibliography` using the `authoryear` citation style.
+- Created `genPdfWithCitation.sh` script for the 4-step bibliography compilation workflow (pdflatex → bibtex/biber → pdflatex → pdflatex), with auto-detection of the bibliography backend by inspecting the preamble for `\usepackage{biblatex}`.
