@@ -89,3 +89,10 @@
   - Used `\boldmath` for bolding entire expressions and the `bm` package for selectively bolding individual symbols including Greek letters (`\bm{\alpha}`), which `\mathbf` cannot handle.
   - Explored the `mathtools` package for enhanced matrix environments with alignment options (`pmatrix*[r]` for right-aligned entries).
   - Learned about `unicode-math` package used with `lualatex` engine for OpenType math fonts (`\setmathfont`) and Unicode math alphabet commands (`\symfrak`, `\symbf`, `\symcal`, `\symscr`, `\symbb`).
+  - **Milestone:** Successfully completed Lesson 11 from learnlatex.org, focusing on formatting — fonts and spacing.
+  - Learned to use the `parskip` package with the `[parfill]` option to replace paragraph indentation with vertical whitespace between paragraphs, which is a common preference for non-book documents.
+  - Practiced explicit spacing commands: `\hspace{1cm}` for inserting horizontal space and `\vspace{10cm}` for inserting vertical space within the document flow.
+  - Explored the argument-based font formatting commands: `\textbf` (bold), `\textit` (italic), `\textrm` (roman), `\textsf` (sans serif), `\texttt` (monospaced), and `\textsc` (small caps).
+  - Learned the distinction between argument-based commands (e.g., `\textit{text}`) and declaration-style commands (e.g., `{\itshape text}`), understanding that declarations apply to all following text within their group and can span multiple paragraphs.
+  - Used font size commands (`\large`, `\small`) within groups, learning the importance of ending a paragraph with `\par` before closing the group to ensure the size change applies to the entire last line (including line spacing).
+  - Explored `\noindent` to suppress the default paragraph indentation for a single paragraph without globally changing the document's indentation behavior.

@@ -1,5 +1,18 @@
 # Release Notes
 
+## [v0.10.0] - learnlatex.org Lesson 11 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 11 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **Paragraph Spacing:** Used the `parskip` package with the `[parfill]` option to switch from indentation-based to whitespace-based paragraph separation.
+- **Explicit Spacing:** Learned `\hspace` and `\vspace` for inserting precise horizontal and vertical space within documents.
+- **Text Formatting Commands:** Practiced argument-based font commands (`\textbf`, `\textit`, `\textrm`, `\textsf`, `\texttt`, `\textsc`) for inline formatting.
+- **Declaration-style Formatting:** Used `\itshape` and `\bfseries` for applying font changes to running text across paragraph boundaries via grouping with braces.
+- **Font Sizes:** Explored size-switching commands (`\large`, `\small`) and the importance of `\par` for proper paragraph termination before closing a size group.
+- **Indent Control:** Used `\noindent` to suppress paragraph indentation for individual paragraphs.
+
 ## [v0.9.0] - learnlatex.org Lesson 10 Completion
 
 **Milestone Reached!**
