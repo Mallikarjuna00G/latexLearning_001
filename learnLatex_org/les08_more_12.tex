@@ -1,0 +1,24 @@
+% Lesson 08: Tables: More
+% Table notes
+% Link: https://www.learnlatex.org/en/more-08#table-notes
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{threeparttable}
+
+\begin{document}
+	\begin{table}
+		\begin{threeparttable}
+			\caption{An example}
+			
+			\begin{tabular}{ll}
+				An entry & 42\tnote{1} \\
+				Another entry & 24\tnote{2}\\
+			\end{tabular}
+			\begin{tablenotes}
+				\item[1] The first note.
+				\item[2] The second note.
+			\end{tablenotes}
+		\end{threeparttable}
+	\end{table}
+\end{document}

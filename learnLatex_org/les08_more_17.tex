@@ -1,0 +1,32 @@
+% Lesson 08: Tables: More
+% Line spacing in Tables
+% Link: https://www.learnlatex.org/en/more-08#line-spacing-in-tables
+
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+
+% \renewcommand{\arraystretch}{1.5}
+
+\begin{document}
+	\begin{center}
+		\begin{tabular}{cc}
+			\hline
+			Square & $x^2$ \\
+			\hline
+			Cube & $x^3$ \\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	\begin{center}
+		\setlength\extrarowheight{2pt}
+		\begin{tabular}{cc}
+			\hline
+			Square & $x^2$ \\
+			\hline
+			Cube & $x^3$ \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{document}

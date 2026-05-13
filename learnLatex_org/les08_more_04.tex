@@ -1,0 +1,14 @@
+% Lesson 08: Tables: More
+% Manipulating the space between columns: Arbitrary separation with @
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+
+\begin{document}
+	\begin{tabular}{l @{ : } l @{\hspace{2cm}} l}
+		Animal & Food  & Size   \\
+		dog    & meat  & medium \\
+		horse  & hay   & large  \\
+		frog   & flies & small  \\
+	\end{tabular}
+\end{document}

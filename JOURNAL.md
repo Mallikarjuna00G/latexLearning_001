@@ -44,3 +44,28 @@
   - Explored `figure` environments to make graphics "float" and understand position specifiers (`h`, `t`, `b`, `p`).
   - Configured LaTeX to look for image assets in specific subdirectories using `\graphicspath{{images/}{images2}}`.
   - Learned about the `float` package to force exact placement using the `[H]` specifier, and the `trivfloat` package to define custom float environments.
+
+## 2026-05-13
+- **LearnLatex.org Tutorial (continued):**
+  - **Milestone:** Successfully completed Lesson 08 from learnlatex.org, focusing on tables.
+  - Learned the basics of the `tabular` environment with column alignment specifiers (`l`, `c`, `r`) and the `&` column separator.
+  - Explored the `p{width}` column type to handle long text with automatic paragraph wrapping inside cells.
+  - Discovered the `*{n}{spec}` shorthand for repeating column preamble tokens.
+  - Used the `booktabs` package for professional-quality horizontal rules (`\toprule`, `\midrule`, `\bottomrule`) instead of plain `\hline`.
+  - Learned `\cmidrule` for partial-width rules spanning specific columns, including shortening with `(r)`, `(l)`, and `(rl)` trim options.
+  - Explored `\addlinespace` from `booktabs` for adding visual separation between row groups.
+  - Mastered cell merging with `\multicolumn{n}{align}{text}` and using it to override column preamble tokens (e.g., centering headers in a left-aligned column).
+  - Learned that row spanning is not natively supported; instead, leaving cells blank simulates the effect, grouped with `\addlinespace`.
+  - **More on Tables (advanced topics):**
+  - Styled columns using `>{...}` (pre-column) and `<{...}` (post-column) modifiers from the `array` package (e.g., `>{\itshape}l<{:}`).
+  - Manipulated inter-column spacing via `\tabcolsep`, the `@{...}` specifier (replaces default spacing), and the `!{...}` specifier (inserts content in the center of existing spacing).
+  - Explored vertical rules using `|` in column specifiers.
+  - Customized `booktabs` rule thickness (e.g., `\toprule[2pt]`).
+  - Used the `siunitx` package's `S` column type for decimal-aligned numeric columns.
+  - Learned to control total table width using `tabular*` with `\extracolsep{\fill}` and the `tabularx` package with the `X` column type.
+  - Explored the `longtable` package for tables that span multiple pages.
+  - Used `threeparttable` to attach footnotes directly to a table.
+  - Learned about typesetting in narrow columns using `ragged2e` and its `\RaggedRight` command.
+  - Defined custom column types using `\newcolumntype` (e.g., `\newcolumntype{B}{>{\bfseries}c}`).
+  - Explored vertical tricks: nesting a `tabular` inside a cell, and using the optional `[t]`/`[b]` alignment argument for vertical baseline control.
+  - Learned about `\arraystretch` for globally adjusting line spacing in tables.

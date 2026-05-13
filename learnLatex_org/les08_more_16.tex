@@ -1,0 +1,29 @@
+% Lesson 08: Tables: More
+% Vertical tricks: table inside a table's cell
+% https://www.learnlatex.org/en/more-08#vertical-tricks
+% Using tabular optional arguments.
+
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+
+\begin{document}
+	\begin{tabular}{lcc}
+		\toprule
+		Test & 
+		\begin{tabular}[b]{@{}c@{}}
+			A \\
+			a \\
+		\end{tabular} &
+		\begin{tabular}[t]{@{}c@{}}
+			B \\
+			b \\
+		\end{tabular} \\
+		\midrule
+		Content & is & here \\
+		Content & is & here \\
+		Content & is & here \\
+		\bottomrule
+	\end{tabular}
+\end{document}

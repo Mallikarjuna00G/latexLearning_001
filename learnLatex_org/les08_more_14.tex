@@ -1,0 +1,24 @@
+% Lesson 08: Tables: More
+% Defining new column types
+% Link: https://www.learnlatex.org/en/more-08#defining-new-column-types
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+
+\newcolumntype{B}{>{\bfseries}c}
+
+\begin{document}
+	\begin{table}
+		\centering
+		\begin{tabular}{lB}
+			\hline
+			Sl.No. & Actions \\
+			\hline
+			1. & Action1 \\
+			2. & Action2 \\
+			\hline
+		\end{tabular}
+		
+		\caption{First table}
+	\end{table}
+\end{document}

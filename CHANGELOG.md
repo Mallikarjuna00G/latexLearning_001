@@ -38,3 +38,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Completed learnlatex.org Lesson 07.
 - Added files (`les07_*.tex`) exploring the `graphicx` package, image manipulation (`\includegraphics`), floating environments (`figure`), `\graphicspath`, and custom floats via the `float` and `trivfloat` packages.
 - Added `images/` and `images2/` directories to demonstrate configuring multiple graphics paths.
+- Completed learnlatex.org Lesson 08.
+- Added files (`les08_01.tex` through `les08_11.tex`) covering the `tabular` environment, column types (`l`, `c`, `r`, `p`), the `booktabs` package (`\toprule`, `\midrule`, `\bottomrule`, `\cmidrule`, `\addlinespace`), cell merging with `\multicolumn`, and simulated row spanning.
+- Added files (`les08_more_01.tex` through `les08_more_17.tex`) exploring advanced table topics: column styling with `>{}` and `<{}` modifiers, inter-column spacing (`\tabcolsep`, `@{}`, `!{}`), vertical rules, customized `booktabs` rules, numeric alignment via `siunitx` (`S` column), total table width control (`tabular*`, `tabularx`), multi-page tables (`longtable`), table footnotes (`threeparttable`), narrow column typesetting (`ragged2e`), custom column types (`\newcolumntype`), nested tables, vertical alignment options, and `\arraystretch` for line spacing.

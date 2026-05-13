@@ -1,0 +1,19 @@
+% Lesson 08: Tables: More
+% Customizing booktabs rules
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+
+\begin{document}
+	\begin{tabular}{@{} lll@{}}
+		\toprule[2pt]
+		Animal & Food  & Size   \\
+		\midrule[1pt]
+		dog    & meat  & medium \\
+		\cmidrule[0.5pt](r{1pt} l{1cm}){1-2}
+		horse  & hay   & large  \\
+		frog   & flies & small  \\
+		\bottomrule[2pt]
+	\end{tabular}
+\end{document}

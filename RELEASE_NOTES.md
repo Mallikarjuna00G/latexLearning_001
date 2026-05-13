@@ -1,5 +1,21 @@
 # Release Notes
 
+## [v0.7.0] - learnlatex.org Lesson 08 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 08 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **Tables Fundamentals:** Mastered the `tabular` environment with column alignment specifiers (`l`, `c`, `r`), paragraph columns (`p{width}`), and the `*{n}{spec}` repetition shorthand.
+- **Professional Rules:** Adopted the `booktabs` package for publication-quality horizontal rules (`\toprule`, `\midrule`, `\bottomrule`), partial rules (`\cmidrule` with trim options), and visual grouping via `\addlinespace`.
+- **Cell Merging:** Used `\multicolumn` for spanning and overriding column preamble tokens.
+- **Column Styling:** Leveraged `>{}` and `<{}` modifiers from the `array` package to apply per-column formatting (e.g., italic text, automatic punctuation).
+- **Spacing Control:** Explored `\tabcolsep`, `@{}`, and `!{}` specifiers for fine-grained inter-column spacing adjustments.
+- **Numeric Alignment:** Used the `siunitx` package's `S` column type for decimal-point-aligned numbers.
+- **Table Width:** Controlled total table width via `tabular*` and `tabularx` environments.
+- **Multi-page Tables:** Used `longtable` for tables spanning multiple pages.
+- **Advanced Features:** Explored table footnotes (`threeparttable`), custom column types (`\newcolumntype`), nested tables, vertical alignment options (`[t]`/`[b]`), and global line spacing via `\arraystretch`.
+
 ## [v0.6.0] - learnlatex.org Lesson 07 Completion
 
 **Milestone Reached!**

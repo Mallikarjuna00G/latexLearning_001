@@ -1,0 +1,36 @@
+% Lesson 08: Tables: More
+% Multi-page tables
+% Link: https://www.learnlatex.org/en/more-08#multi-page-tables
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[paperheight=8cm, paperwidth=8cm]{geometry} 
+\usepackage{array}
+\usepackage{longtable}
+
+\begin{document}
+	\begin{longtable}{cc}
+		\multicolumn{2}{c}{A Long Table} \\
+		Left Side & Right Side \\
+		\hline
+		\endhead
+		\hline
+		\endfoot
+		aa & bb \\  
+		Entry & b \\  
+		a & b \\  
+		a & b \\  
+		a & b \\  
+		a & b \\  
+		a & bbb \\  
+		a & b \\  
+		a & b \\  
+		a & b \\  
+		a & b \\  
+		a & b \\  
+		a & b \\  
+		a & b b b b b b \\  
+		a & b b b b b \\  
+		a & b b \\  
+		A Wider Entry & b \\ 
+	\end{longtable}
+\end{document}

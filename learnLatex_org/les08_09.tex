@@ -1,0 +1,19 @@
+% Lesson 08: Tables
+% Merging cells
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+
+\begin{document}
+	\begin{tabular}{lll}
+		\toprule
+		Animal & Food  & Size   \\
+		\midrule
+		dog    & meat  & medium \\
+		horse  & hay   & large  \\
+		frog   & flies & small  \\
+		fuath & \multicolumn{2}{c}{unknown} \\
+		\bottomrule
+	\end{tabular}
+\end{document}

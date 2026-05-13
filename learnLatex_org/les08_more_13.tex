@@ -1,0 +1,32 @@
+% Lesson 08: Tables: More
+% Typesetting in narrow columns
+% Link: https://www.learnlatex.org/en/more-08#typesetting-in-narrow-columns
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{ragged2e}
+
+\begin{document}
+	\begin{table}
+		\begin{tabular}[t]{l p{3cm}}
+			One & A long text set in a narrow paragraph, with some more example text. \\
+			Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words. \\
+		\end{tabular}
+
+		\begin{tabular}[t]{l>{\raggedright\arraybackslash} p{3cm}}
+			One & A long text set in a narrow paragraph, with some more example text. \\
+			Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words. \\
+		\end{tabular}
+		
+		\begin{tabular}[t]{l>{\RaggedRight} p{3cm}}
+			One & A long text set in a narrow paragraph, with some more example text. \\
+			Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words. \\
+		\end{tabular}
+		
+		\footnotesize
+		\begin{tabular}[t]{l p{3cm}}
+			One & A long text set in a narrow paragraph, with some more example text. \\
+			Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words. \\
+		\end{tabular}
+	\end{table}
+\end{document}

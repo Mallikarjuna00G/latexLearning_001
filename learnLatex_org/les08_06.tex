@@ -1,0 +1,21 @@
+% Lesson 08: Tables
+% cmidrule (line) from booktabs package
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+
+\begin{document}
+	\begin{tabular}{lll}
+		\toprule
+		Animal & Food  & Size   \\
+		\midrule
+		dog    & meat  & medium \\
+		\cmidrule{1-2}
+		horse  & hay   & large  \\
+		\cmidrule{1-1}
+		\cmidrule{3-3}
+		frog   & flies & small  \\
+		\bottomrule
+	\end{tabular}
+\end{document}

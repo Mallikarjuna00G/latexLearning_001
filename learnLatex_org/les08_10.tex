@@ -1,0 +1,20 @@
+% Lesson 08: Tables
+% Merging cells. Override table preamble tokens.
+% Center the table header
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+
+\begin{document}
+	\begin{tabular}{lll}
+		\toprule
+		\multicolumn{1}{c}{Animal} & \multicolumn{1}{c}{Food}  & \multicolumn{1}{c}{Size} \\
+		\midrule
+		dog    & meat  & medium \\
+		horse  & hay   & large  \\
+		frog   & flies & small  \\
+		fuath & \multicolumn{2}{c}{unknown} \\
+		\bottomrule
+	\end{tabular}
+\end{document}

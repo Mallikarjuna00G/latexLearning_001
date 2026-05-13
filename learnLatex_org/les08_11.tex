@@ -1,0 +1,29 @@
+% Lesson 08: Tables
+% Merging cells. Row span is not supported. Just leave blank.
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+
+\begin{document}
+	\begin{tabular}{lll}
+		\toprule
+		Group & Animal & Size \\
+		\midrule
+		\midrule
+		herbivore & horse & large \\
+			& deer & medium \\
+			& rabbit & small \\
+		\addlinespace
+		\midrule
+		carnivore & dog & medium \\
+			& cat & small \\
+			& lion & large \\
+		\addlinespace
+		\midrule
+		omnivore & crow & small \\
+			& bear & large \\
+			& pig & medium \\
+		\bottomrule
+	\end{tabular}
+\end{document}

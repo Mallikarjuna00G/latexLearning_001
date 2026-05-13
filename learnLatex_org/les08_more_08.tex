@@ -1,0 +1,23 @@
+% Lesson 08: Tables: More
+% Link: https://www.learnlatex.org/en/more-08#numeric-alignment-in-columns
+% Numeric alignment in columns
+% any non-numeric cell must be “protected” by enclosing it in braces.
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{siunitx}
+
+\begin{document}
+	\begin{tabular}{SS}
+		\toprule
+		{Values} & {More Values} \\
+		\midrule
+		1 & 2.3456\\
+		1.2 & 34.2345 \\
+		-2.3 & 90.473 \\
+		40 & 5642.5 \\
+		5.3 & 1.2e3 \\
+		0.2 & 1e4 \\
+		\bottomrule
+	\end{tabular}
+\end{document}

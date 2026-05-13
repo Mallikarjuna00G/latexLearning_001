@@ -1,0 +1,37 @@
+% Lesson 08: Tables: More
+% Specifying the total table width: tabularx
+% Link: https://www.learnlatex.org/en/more-08#tabularx
+% adjusts the widths of columns specified by a new column type, X.
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{tabularx}
+
+\begin{document}
+	\begin{center}
+		\begin{tabular}{l p{2cm}}
+			\hline
+			A & B B B B B B B B B B B B B B B B B B B B B B B B\\
+			C & D D D D D D D\\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	\begin{center}
+		\begin{tabularx}{0.5\textwidth}{lX}
+			\hline
+			A & B B B B B B B B B B B B B B B B B B B B B B B B\\
+			C & D D D D D D D\\
+			\hline
+		\end{tabularx}
+	\end{center}
+	
+	\begin{center}
+		\begin{tabularx}{\textwidth}{lX}
+			\hline
+			A & B B B B B B B B B B B B B B B B B B B B B B B B\\
+			C & D D D D D D D\\
+			\hline
+		\end{tabularx}
+	\end{center}
+\end{document}

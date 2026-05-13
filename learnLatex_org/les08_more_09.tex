@@ -1,0 +1,36 @@
+% Lesson 08: Tables: More
+% Specifying the total table width
+% Link: https://www.learnlatex.org/en/more-08#specifying-the-total-table-width
+% tabular*
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+
+\begin{document}
+	\begin{center}
+		\begin{tabular}{cc}
+			\hline
+			A & B \\
+			C & D \\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	\begin{center}
+		\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}cc@{}}
+			\hline
+			A & B \\
+			C & D \\
+			\hline
+		\end{tabular*}
+	\end{center}
+	
+	\begin{center}
+		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cc@{}}
+			\hline
+			A & B \\
+			C & D \\
+			\hline
+		\end{tabular*}
+	\end{center}
+\end{document}
