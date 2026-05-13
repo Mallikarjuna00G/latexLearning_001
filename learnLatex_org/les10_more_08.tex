@@ -1,0 +1,21 @@
+% Lesson 10: Mathematics: More
+% Unicode Math
+% Link: https://www.learnlatex.org/en/more-10#unicode-math
+
+% NOTE: We need to run it using `lualatex`.
+\documentclass[a4paper]{article}
+\usepackage{unicode-math}
+\setmainfont{TeX Gyre Pagella}
+\setmathfont{TeX Gyre Pagella Math}
+
+\begin{document}
+	One Two Three
+	\[
+	\log \alpha + \log \beta = \log(\alpha\beta)
+	\]
+	
+	Unicode Math Alphanumerics
+	\[
+	A + \symfrak{A}+\symbf{A}+ \symcal{A} + \symscr{A}+ \symbb{A}
+	\]
+\end{document}

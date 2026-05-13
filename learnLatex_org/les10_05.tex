@@ -1,0 +1,16 @@
+% Lesson 10: Mathematics
+% Display mathematics
+% Link: https://www.learnlatex.org/en/lesson-10#display-mathematics
+
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\newcommand{\diff}{\mathop{}\!d}    % For italic
+% \newcommand{\diff}{\mathop{}\!\mathrm{d}}    % For upright
+
+\begin{document}
+	A paragraph about a larger equation.
+	\[
+	\int_{-\infty}^{+\infty} e^{-x^{2}} \diff x
+	\]
+	% We’ve added one piece of manual spacing here: \, makes a thin space before the dx.
+\end{document}

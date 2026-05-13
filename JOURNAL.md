@@ -73,3 +73,19 @@
   - Learned the `\label` and `\ref` mechanism for creating internal document references to sections, subsections, and equations.
   - Used the tilde `~` (non-breaking space) before `\ref` to prevent line breaks between the reference label text and the reference number.
   - Explored the `hyperref` package to turn cross-references into clickable hyperlinks, using the `[hidelinks]` option for a clean visual appearance without colored boxes.
+  - **Milestone:** Successfully completed Lesson 10 from learnlatex.org, focusing on mathematics.
+  - Learned the two main math modes: inline math with `$...$` and display math with `\[...\]`, understanding how display math centers equations on their own line.
+  - Practiced superscripts (`^{}`) and subscripts (`_{}`) notation, and used standard math functions like `\sin` and `\log`.
+  - Typeset integrals (`\int`) with upper and lower limits, used `\infty` for infinity symbols, and learned the `\,` thin-space command for proper spacing before differentials like `dx`.
+  - Created a custom `\diff` command using `\mathop{}` and `\!` for typographically correct differential notation, with options for both italic and upright `d`.
+  - Used the `equation` environment for automatically numbered display equations, as opposed to unnumbered `\[...\]`.
+  - Explored the `amsmath` package for advanced math typesetting: `align*` for multi-line aligned equations with `&` alignment markers, and `\binom{n}{k}` for binomial coefficients.
+  - Learned the matrix environments from `amsmath`: `matrix` (plain), `pmatrix` (parenthesised), and `bmatrix` (bracketed).
+  - Explored math-mode font commands: `\mathbf` for bold (Latin letters only), `\mathit` for math italic, `\mathrm` for upright Roman, and `\text` (which inherits surrounding text style — a subtle but important distinction).
+  - **More on Mathematics (advanced topics):**
+  - Used `gather` for centering multiple equations without alignment, and `multline` for breaking long single equations across lines.
+  - Explored multi-column alignments with `align*` using multiple `&` pairs, and the `aligned` sub-environment for inline equation groups with delimiter pairing (`\left.\begin{aligned}...\end{aligned}\right\}`).
+  - Learned about vertical positioning of `aligned` blocks using `[t]` to top-align with surrounding content like list items.
+  - Used `\boldmath` for bolding entire expressions and the `bm` package for selectively bolding individual symbols including Greek letters (`\bm{\alpha}`), which `\mathbf` cannot handle.
+  - Explored the `mathtools` package for enhanced matrix environments with alignment options (`pmatrix*[r]` for right-aligned entries).
+  - Learned about `unicode-math` package used with `lualatex` engine for OpenType math fonts (`\setmathfont`) and Unicode math alphabet commands (`\symfrak`, `\symbf`, `\symcal`, `\symscr`, `\symbb`).

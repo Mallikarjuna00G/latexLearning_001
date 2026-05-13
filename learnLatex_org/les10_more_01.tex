@@ -1,0 +1,22 @@
+% Lesson 10: Mathematics: More
+% Further amsmath alignments
+% Link: https://www.learnlatex.org/en/more-10#further-amsmath-alignments
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath}
+
+\begin{document}
+	Gather
+	\begin{gather}
+		P(x)=ax^{5}+bx^{4}+cx^{3}+dx^{2}+ex +f\\
+		x^2+x=10
+	\end{gather}
+	
+	Multiline
+	\begin{multline*}
+		(a+b+c+d)x^{5}+(b+c+d+e)x^{4} \\
+		+(c+d+e+f)x^{3}+(d+e+f+a)x^{2}+(e+f+a+b)x\\
+		+ (f+a+b+c)
+	\end{multline*}
+\end{document}

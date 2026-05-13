@@ -1,5 +1,20 @@
 # Release Notes
 
+## [v0.9.0] - learnlatex.org Lesson 10 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 10 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **Inline & Display Math:** Practiced both inline (`$...$`) and display (`\[...\]`) math modes, including superscripts, subscripts, and standard math functions like `\sin`.
+- **Integrals & Spacing:** Typeset integrals with limits (`\int_{-\infty}^{+\infty}`), learned manual thin-space (`\,`) for differentials, and created a custom `\diff` command.
+- **Numbered Equations:** Used the `equation` environment for automatically numbered display equations.
+- **`amsmath` Package:** Explored the `align` environment for multi-line aligned equations, and matrix environments (`matrix`, `pmatrix`, `bmatrix`).
+- **Math Fonts:** Learned math-mode font switching with `\mathbf`, `\mathit`, `\mathrm`, and `\text`, understanding the difference between each.
+- **Advanced Alignments:** Used `gather`, `multline`, multi-column `align`, and the `aligned` sub-environment with delimiter pairing and `[t]` positioning.
+- **Bold Math:** Explored `\boldmath`, `\mathbf` limitations, and the `bm` package for correctly bolding Greek letters and operators.
+- **`mathtools` & Unicode Math:** Used `mathtools` for starred matrix environments with alignment options, and `unicode-math` with `lualatex` for OpenType math fonts and Unicode alphanumeric symbols (`\symfrak`, `\symbf`, `\symcal`, `\symscr`, `\symbb`).
+
 ## [v0.8.0] - learnlatex.org Lesson 09 Completion
 
 **Milestone Reached!**

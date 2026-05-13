@@ -1,0 +1,24 @@
+% Lesson 10: Mathematics: More
+% Columns in math alignments
+% Link: https://www.learnlatex.org/en/more-10#columns-in-math-alignments
+% aligned
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath}
+
+\begin{document}
+	% . is not to print any braces.
+	Aligned:
+	\[
+	\left.\begin{aligned}
+		a &= b \\
+		c &= d \\
+	\end{aligned}\right\}
+	\longrightarrow
+	\left\{\begin{aligned}
+		b &= a \\
+		d &= c \\
+	\end{aligned}\right.
+	\]
+\end{document}
