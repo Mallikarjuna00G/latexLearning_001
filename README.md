@@ -59,7 +59,9 @@ General usage: `pdflatex <filename.tex>`
 
 Project usage: `bash genPdf.sh <filename.tex>`
 
-Generates `pdf` files.
+For files with citations/bibliography: `bash genPdfWithCitation.sh <filename.tex>`
+
+For files with index (`imakeidx`): `bash genPdfWithIndex.sh <filename.tex>`
 
 ```console
 $ pdflatex --version

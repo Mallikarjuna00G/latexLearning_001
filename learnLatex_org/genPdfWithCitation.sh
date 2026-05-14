@@ -7,9 +7,10 @@ if [ -z "$1" ]; then
 fi
 
 BASENAME="${1%.tex}"
+PDFLATEX_CMD="pdflatex -synctex=1 -interaction=nonstopmode -output-directory=./build -output-format=pdf"
 
 # Step 1: First pdflatex pass — generates .aux with citation keys
-pdflatex -synctex=1 -interaction=nonstopmode -output-directory="./build" -output-format="pdf" "$1"
+$PDFLATEX_CMD "$1"
 
 # Step 2: Auto-detect bibliography backend from the preamble.
 #   - Extract preamble (everything before \begin{document})
@@ -29,7 +30,7 @@ else
 fi
 
 # Step 3: Second pdflatex pass — incorporates bibliography data
-pdflatex -synctex=1 -interaction=nonstopmode -output-directory="./build" -output-format="pdf" "$1"
+$PDFLATEX_CMD "$1"
 
 # Step 4: Third pdflatex pass — resolves all citation cross-references
-pdflatex -synctex=1 -interaction=nonstopmode -output-directory="./build" -output-format="pdf" "$1"
+$PDFLATEX_CMD "$1"

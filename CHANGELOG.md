@@ -55,3 +55,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `les12_01.tex` demonstrating the older BibTeX workflow with `natbib` package: `\cite`, `\citep` (parenthetical with optional page/prenote arguments), `\bibliographystyle{plainnat}`, and `\bibliography{learnlatex}`.
 - Added `les12_02.tex` demonstrating the modern `biblatex` workflow with `biber` backend: `\addbibresource`, `\autocite`, `\parencite`, `\textcite`, `\citetitle`, and `\printbibliography` using the `authoryear` citation style.
 - Created `genPdfWithCitation.sh` script for the 4-step bibliography compilation workflow (pdflatex → bibtex/biber → pdflatex → pdflatex), with auto-detection of the bibliography backend by inspecting the preamble for `\usepackage{biblatex}`.
+- Completed learnlatex.org Lesson 13.
+- Added `les13_01.tex` demonstrating structured document composition using `\input` for frontmatter/chapters/appendices and `\tableofcontents` with `biblatex`/`biber` for bibliography, compiled via `genPdfWithCitation.sh`.
+- Added supporting chapter/structure files (`front.tex`, `chap1.tex`, `chap2.tex`, `append.tex`, `pref.tex`, `frontcover.tex`, `backcover.tex`, `copyright.tex`, `dedication.tex`) for the multi-file book document.
+- Added `les13_more_01.tex` exploring the `imakeidx` package for index generation with `\index` entries and `\printindex`, using the `noautomatic` option to work correctly with the `build/` output directory.
+- Created `genPdfWithIndex.sh` script for the 3-step index compilation workflow (pdflatex → makeindex → pdflatex), running `makeindex` on `./build/*.idx` to resolve the path mismatch caused by `-output-directory`.
+- Refactored `genPdfWithCitation.sh` and `genPdfWithIndex.sh` to extract the repeated `pdflatex` invocation into a reusable `PDFLATEX_CMD` variable for DRY maintainability.

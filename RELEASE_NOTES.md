@@ -1,5 +1,16 @@
 # Release Notes
 
+## [v0.12.0] - learnlatex.org Lesson 13 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 13 from the learnlatex.org tutorial series.
+
+**Highlights:**
+- **Document Structuring:** Learned to split large documents into multiple `.tex` files using `\input`, organizing content into frontmatter, chapters, appendices, and backmatter with a master `book`-class document.
+- **Index Generation:** Explored the `imakeidx` package for creating document indices with `\index` entries and `\printindex`.
+- **Build Script — `genPdfWithIndex.sh`:** Created a new 3-step compilation script (pdflatex → makeindex → pdflatex) to handle index generation, resolving the path mismatch where `makeindex` couldn't find `.idx` files in the `./build/` output directory.
+- **Script Refactoring:** Extracted the repeated `pdflatex` invocation into a `PDFLATEX_CMD` variable in both `genPdfWithCitation.sh` and `genPdfWithIndex.sh` for DRY maintainability.
+
 ## [v0.11.0] - learnlatex.org Lesson 12 Completion
 
 **Milestone Reached!**

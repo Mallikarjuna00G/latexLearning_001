@@ -1,0 +1,25 @@
+% Lesson 13: Structuring Longer documents | More
+% Making an index
+% Link: https://www.learnlatex.org/en/more-13#making-an-index
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{imakeidx}
+
+% noautomatic: prevent imakeidx from running makeindex during pdflatex,
+% because -output-directory=./build puts the .idx there and the automatic
+% call looks in the current directory. Run makeindex separately via genPdfWithIndex.sh.
+\makeindex[noautomatic]
+
+\begin{document}
+	Some text above foo\index{foo}.
+	More text\index{baz!bar}.
+	Even more text\index{alpha@$\alpha$}.
+	More text about a different part of baz\index{baz!wibble}.
+	
+	\clearpage
+	Some text about Foo\index{foo} again, on a different page.
+	Even more text\index{beta@$\beta$}.
+	Even more text\index{gamma@$\gamma$}.
+	
+	\printindex
+\end{document}
