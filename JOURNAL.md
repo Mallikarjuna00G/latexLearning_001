@@ -115,3 +115,11 @@
   - Discovered that `imakeidx`'s automatic `makeindex` invocation (via `\write18`) fails when using `-output-directory=./build` because `makeindex` looks for the `.idx` file in the current directory, not in `./build/`. Fixed by adding the `noautomatic` option to `\makeindex`.
   - Created `genPdfWithIndex.sh` to automate the 3-step index compilation workflow: pdflatex → makeindex (targeting `./build/*.idx`) → pdflatex.
   - Refactored both `genPdfWithCitation.sh` and `genPdfWithIndex.sh` to extract the repeated `pdflatex` command into a `PDFLATEX_CMD` variable, improving DRY maintainability — now any flag change only needs one edit per script.
+  - **Milestone:** Successfully completed Lesson 14 from learnlatex.org, focusing on Fonts and Unicode Engines (XeTeX and LuaTeX).
+  - Learned about the transition from 8-bit `pdflatex` to Unicode-aware engines like `xelatex` and `lualatex`.
+  - Explored the `fontspec` package, which replaces `fontenc` for Unicode engines and allows easy use of system OpenType and TrueType fonts.
+  - Learned the difference between font lookup by filename (e.g., `\setmainfont{texgyretermes-regular.otf}`) and by system font name (e.g., `\newfontfamily\kannadafont{Noto Serif Kannada}`).
+  - Successfully typeset a multi-script document (`les14_01.tex`) containing Latin, Greek, Chinese (using Fandol fonts), and Kannada (using Noto Serif Kannada) scripts.
+  - Explored the unique capability of LuaTeX to execute Lua code directly within the LaTeX document using `\directlua`, demonstrated in `les14_more_01.tex`.
+  - Created `genPdfWithXelatex.sh` and `genPdfWithLualatex.sh` to automate the compilation workflow for these modern engines, routing all outputs to the isolated `build/` directory.
+  - Fixed a flag mismatch in `genPdfWithXelatex.sh` (removed unsupported `-output-format=pdf`) and ensured `genPdfWithLualatex.sh` uses the correct `--output-directory` syntax.

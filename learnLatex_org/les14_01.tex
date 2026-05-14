@@ -1,0 +1,14 @@
+% !TEX xelatex
+% Lesson 14: Fonts and unicode engines
+% The Unicode era
+% Link: https://www.learnlatex.org/en/lesson-14#the-unicode-era
+\documentclass{article}
+\usepackage{fontspec}
+
+\setmainfont{texgyretermes-regular.otf}
+\newfontfamily\cjkfont{FandolSong-Regular.otf}
+\newfontfamily\kannadafont{Noto Serif Kannada}
+
+\begin{document}
+	ABC → αβγ → {\cjkfont 你好} → {\kannadafont ನಮಸ್ಕಾರ, ಕನ್ನಡದಲ್ಲಿ ಸ್ವಾಗತ!}
+\end{document}

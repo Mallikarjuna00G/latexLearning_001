@@ -1,5 +1,17 @@
 # Release Notes
 
+## [v0.13.0] - learnlatex.org Lesson 14 Completion
+
+**Milestone Reached!**
+Successfully completed Lesson 14 from the learnlatex.org tutorial series, mastering Unicode engines.
+
+**Highlights:**
+- **Unicode Engines:** Transitioned to using `xelatex` and `lualatex` for native Unicode and system font support.
+- **Modern Font Management:** Leveraged the `fontspec` package to integrate OpenType/TrueType fonts (including `Noto Serif Kannada` and `Fandol` fonts) directly into LaTeX.
+- **Multi-Script Support:** Successfully typeset documents featuring Latin, Greek, Chinese, and Kannada scripts.
+- **Lua Integration:** Explored LuaTeX's power to execute Lua code within LaTeX documents via `\directlua`.
+- **New Build Scripts:** Introduced `genPdfWithXelatex.sh` and `genPdfWithLualatex.sh` for streamlined Unicode-aware compilation workflows.
+
 ## [v0.12.0] - learnlatex.org Lesson 13 Completion
 
 **Milestone Reached!**

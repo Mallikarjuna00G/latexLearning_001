@@ -61,3 +61,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `les13_more_01.tex` exploring the `imakeidx` package for index generation with `\index` entries and `\printindex`, using the `noautomatic` option to work correctly with the `build/` output directory.
 - Created `genPdfWithIndex.sh` script for the 3-step index compilation workflow (pdflatex → makeindex → pdflatex), running `makeindex` on `./build/*.idx` to resolve the path mismatch caused by `-output-directory`.
 - Refactored `genPdfWithCitation.sh` and `genPdfWithIndex.sh` to extract the repeated `pdflatex` invocation into a reusable `PDFLATEX_CMD` variable for DRY maintainability.
+- Completed learnlatex.org Lesson 14.
+- Added `les14_01.tex` exploring Unicode engines (XeTeX/LuaTeX) and the `fontspec` package, with multi-script support (Latin, Greek, Chinese, Kannada).
+- Added `les14_more_01.tex` demonstrating Lua integration in LaTeX using `\directlua`.
+- Created `genPdfWithXelatex.sh` and `genPdfWithLualatex.sh` build scripts for Unicode-aware compilation.

@@ -63,6 +63,8 @@ For files with citations/bibliography: `bash genPdfWithCitation.sh <filename.tex
 
 For files with index (`imakeidx`): `bash genPdfWithIndex.sh <filename.tex>`
 
+Generates `pdf` files using `pdflatex`.
+
 ```console
 $ pdflatex --version
 pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian)
@@ -77,6 +79,36 @@ Primary author of pdfTeX: Han The Thanh (pdfTeX) et al.
 Compiled with libpng 1.6.47; using libpng 1.6.48
 Compiled with zlib 1.3.1; using zlib 1.3.1
 Compiled with xpdf version 4.04
+```
+
+### `xelatex`
+
+General usage: `xelatex <filename.tex>`
+
+Project usage: `bash genPdfWithXelatex.sh <filename.tex>`
+
+Generates `pdf` files using `xelatex` (Unicode-aware engine).
+
+```console
+$ xelatex --version
+XeTeX 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian)
+kpathsea version 6.4.0/dev
+Copyright 2024 Desmond Lignerat, Jonathan Kew.
+...
+```
+
+### `lualatex`
+
+General usage: `lualatex <filename.tex>`
+
+Project usage: `bash genPdfWithLualatex.sh <filename.tex>`
+
+Generates `pdf` files using `lualatex` (Unicode-aware engine with Lua integration).
+
+```console
+$ lualatex --version
+LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)
+...
 ```
 
 ### `dvisvgm`
