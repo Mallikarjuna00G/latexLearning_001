@@ -123,3 +123,8 @@
   - Explored the unique capability of LuaTeX to execute Lua code directly within the LaTeX document using `\directlua`, demonstrated in `les14_more_01.tex`.
   - Created `genPdfWithXelatex.sh` and `genPdfWithLualatex.sh` to automate the compilation workflow for these modern engines, routing all outputs to the isolated `build/` directory.
   - Fixed a flag mismatch in `genPdfWithXelatex.sh` (removed unsupported `-output-format=pdf`) and ensured `genPdfWithLualatex.sh` uses the correct `--output-directory` syntax.
+  - **Milestone Reached:** Completed all lessons from learnlatex.org! The project has matured significantly, evolving from basic "Hello World" documents to complex multi-file structures with modern Unicode support and automated build pipelines.
+  - **Future Outlook:** With the core fundamentals solidified, the next phase will focus on advanced technical illustrations using the TikZ package.
+
+I might start with 
+- [Drawing feature](https://www.learnlatex.org/en/extra-01#drawing) which use Tikz. For this, I plan to follow the pdf suggested which is available [here](https://texdoc.org/serve/tikz/0).

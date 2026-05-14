@@ -1,5 +1,20 @@
 # Release Notes
 
+## [v1.0.0] - learnlatex.org Completion & First Official Release
+
+**Major Milestone Reached!**
+This release marks the successful completion of all core lessons from the learnlatex.org tutorial series. This repository now serves as a comprehensive reference for LaTeX fundamentals, advanced styling, mathematical typesetting, bibliography management, and modern Unicode engines.
+
+**Highlights:**
+- **Course Completion:** Successfully finished all lessons (1 through 14) from learnlatex.org.
+- **Reference Codebase:** A robust collection of `.tex` files covering a wide range of LaTeX features.
+- **Automation Suite:** A complete set of bash scripts for various compilation workflows (PDF, DVI, SVG, PNG, HTML) with specialized scripts for Citations, Indices, XeLaTeX, and LuaLaTeX.
+- **Clean Workspace:** Standardized build routing to an isolated `build/` directory across all tools.
+- **Documentation:** Full traceability through detailed Journal entries, Changelog, and Release Notes.
+
+**Next Steps:**
+- Moving beyond core LaTeX to explore specialized features, starting with **TikZ** for vector graphics and technical drawings.
+
 ## [v0.13.0] - learnlatex.org Lesson 14 Completion
 
 **Milestone Reached!**
