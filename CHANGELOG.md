@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-05-15
+### Added
+- Created `tikzPgf_manual/` directory for learning from the TikZ & PGF manual.
+- Added Chapter 1 drawing: `ch01/drawing_001.tex`.
+- Added Chapter 2 tutorial files: `ch02/ch2p2p1_001.tex`, `ch02/ch2p3.tex`, `ch02/ch2p4_001.tex`, `ch02/ch2p4_002.tex`, `ch02/ch2p5_001.tex`, and `ch02/ch2p5_002.tex`.
+- Updated root `README.md` to include the new learning path.
+- Updated `JOURNAL.md`, `RELEASE_NOTES.md`, and `CHANGELOG.md` for the new milestone.
+
 ## [1.0.0] - 2026-05-14
 ### Added
 - Updated `.gitignore` to ignore `make4ht` generated files (`.html`, `.css`, `.tmp`).

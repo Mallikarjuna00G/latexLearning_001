@@ -1,0 +1,17 @@
+% ch2p5_001: Circle Path Construction
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+		% Circle
+		\draw (0, 0) circle [radius=10pt];
+		
+		%Ellipse
+		\draw (0, 0) ellipse [x radius=20pt, y radius=10pt];
+		
+		% Ellipse rotated
+		\draw[rotate=30] (0, 0) ellipse [x radius=25pt, y radius=12pt];
+	\end{tikzpicture}
+\end{document}

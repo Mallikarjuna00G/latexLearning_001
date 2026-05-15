@@ -128,3 +128,17 @@
 
 I might start with 
 - [Drawing feature](https://www.learnlatex.org/en/extra-01#drawing) which use Tikz. For this, I plan to follow the pdf suggested which is available [here](https://texdoc.org/serve/tikz/0).
+
+## 2026-05-15
+- **TikZ & PGF Manual Study:**
+  - Started the next major learning path: **TikZ & PGF** for technical drawings.
+  - Created a new directory `tikzPgf_manual/` to house exercises from the official manual.
+  - **Chapter 1: Introduction:**
+    - Explored the basic concepts and wrote the first drawing script `ch01/drawing_001.tex`.
+  - **Chapter 2: Tutorial: A Picture for Karl’s Students:**
+    - Began the famous tutorial from the manual.
+    - Worked through section 2.2 and 2.3, creating `ch02/ch2p2p1_001.tex` and `ch02/ch2p3.tex`.
+    - Progressed through sections 2.4 and 2.5, implementing various drawing components in `ch02/ch2p4_001.tex`, `ch02/ch2p4_002.tex`, `ch02/ch2p5_001.tex`, and `ch02/ch2p5_002.tex`.
+  - **Documentation Maintenance:**
+    - Updated the repository's core documentation (`README.md`, `CHANGELOG.md`, `RELEASE_NOTES.md`) and refined the TikZ manual's internal `README.md`.
+    - Verified and updated `.gitignore` to ensure all LaTeX and TikZ-specific artifacts are correctly handled.

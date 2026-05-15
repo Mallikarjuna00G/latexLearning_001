@@ -1,0 +1,15 @@
+% ch2p4: Curved path construction
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+		\filldraw[gray] (0, 0) circle [radius=2pt] % point1
+			(1, 1) circle [radius=2pt] % control1
+			(2, 1) circle [radius=2pt] % control2
+			(2, 0) circle [radius=2pt]; % point2
+		
+		\draw (0, 0) .. controls (1, 1) and (2, 1) .. (2, 0);
+	\end{tikzpicture}
+\end{document}

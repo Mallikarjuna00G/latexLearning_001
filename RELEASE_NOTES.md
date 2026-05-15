@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.1.0] - TikZ & PGF Manual Initial Progress
+
+**Exploring Vector Graphics!**
+This release marks the beginning of the TikZ & PGF learning path, focusing on technical drawings and diagrams directly within LaTeX.
+
+**Highlights:**
+- **New Module:** Initialized `tikzPgf_manual/` directory for exercises from the official manual.
+- **Tutorial Progress:** Completed initial drawings from Chapter 1 and started the "A Picture for Karl’s Students" tutorial in Chapter 2.
+- **Documentation Update:** Integrated the new learning path into the repository's main documentation structure.
+
 ## [v1.0.0] - learnlatex.org Completion & First Official Release
 
 **Major Milestone Reached!**

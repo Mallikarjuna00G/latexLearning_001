@@ -9,6 +9,9 @@ Learning Latex tool
 - Source: [https://www.learnlatex.org/en/](https://www.learnlatex.org/en/)
 - Available in other languages too. Check [https://www.learnlatex.org/](https://www.learnlatex.org/)
 
+3. [Manual (pdf): TikZ & PGF packages](./Manual_TikZ_PGF_packages.pdf):
+- Source: [https://www.ctan.org/pkg/pgf](https://www.ctan.org/pkg/pgf)
+- Manual for Version 3.1.11a
 
 ## Environment setup instruction
 
