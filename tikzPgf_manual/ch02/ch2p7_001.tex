@@ -1,0 +1,15 @@
+% ch2p7_001: Grid path construction
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[step=0.5cm, gray, very thin] (-1.4, -1.4) grid (1.4, 1.4);    % grid
+		
+		\draw (-1.5, 0) -- (1.5, 0);    % x-axis
+		\draw (0, -1.5) -- (0, 1.5);    % y-axis
+		
+		\draw (0, 0) circle [radius=1cm];
+	\end{tikzpicture}
+\end{document}

@@ -139,6 +139,10 @@ I might start with
     - Began the famous tutorial from the manual.
     - Worked through section 2.2 and 2.3, creating `ch02/ch2p2p1_001.tex` and `ch02/ch2p3.tex`.
     - Progressed through sections 2.4 and 2.5, implementing various drawing components in `ch02/ch2p4_001.tex`, `ch02/ch2p4_002.tex`, `ch02/ch2p5_001.tex`, and `ch02/ch2p5_002.tex`.
+    - **TikZ Expansion (Sections 2.6 - 2.8):**
+      - Implemented Rectangle Path Construction in `ch02/ch2p6_001.tex`.
+      - Learned Grid Path Construction in `ch02/ch2p7_001.tex`.
+      - Explored Styling Grids (colors, styles, help lines) in `ch02/ch2p8_001.tex` and `ch02/ch2p8_002.tex`.
   - **Documentation Maintenance:**
     - Updated the repository's core documentation (`README.md`, `CHANGELOG.md`, `RELEASE_NOTES.md`) and refined the TikZ manual's internal `README.md`.
     - Verified and updated `.gitignore` to ensure all LaTeX and TikZ-specific artifacts are correctly handled.

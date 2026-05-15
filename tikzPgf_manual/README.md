@@ -14,3 +14,7 @@
 - ch2p4_002: https://youtube.com/shorts/prKiJGzjTSU?feature=share
 - ch2p5_001: https://youtube.com/shorts/6y2Z7u4lCqQ?feature=share
 - ch2p5_002: https://youtube.com/shorts/Dl5RUACctAI?feature=share
+- ch2p6_001: https://youtube.com/shorts/H1ANHAkglN0?feature=share
+- ch2p7_001: https://youtube.com/shorts/GtFKUnCa814?feature=share
+- ch2p8_001: https://youtube.com/shorts/lBnQ7TlLF9E?feature=share
+- ch2p8_002: https://youtube.com/shorts/mPJ5E7o0YrY?feature=share

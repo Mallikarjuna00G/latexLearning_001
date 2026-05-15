@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2026-05-15
+### Added
+- Continued TikZ & PGF manual Chapter 2 tutorial.
+- Added file for section 2.6 (Rectangle Path Construction): `ch02/ch2p6_001.tex`.
+- Added file for section 2.7 (Grid Path Construction): `ch02/ch2p7_001.tex`.
+- Added files for section 2.8 (Styling Grids): `ch02/ch2p8_001.tex` and `ch02/ch2p8_002.tex`.
+- Updated `tikzPgf_manual/README.md` with new project links.
+
 ## [1.1.0] - 2026-05-15
 ### Added
 - Created `tikzPgf_manual/` directory for learning from the TikZ & PGF manual.

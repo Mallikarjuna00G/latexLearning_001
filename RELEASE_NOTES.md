@@ -1,5 +1,16 @@
 # Release Notes
 
+## [v1.1.1] - TikZ Tutorial Expansion (Rectangle & Grid)
+
+**Shapes and Structures!**
+This patch release focuses on implementing rectangles and grids as part of the "A Picture for Karl’s Students" tutorial.
+
+**Highlights:**
+- **Rectangle Path Construction**: Implemented in `ch02/ch2p6_001.tex`.
+- **Grid Construction**: Explored basic grid generation in `ch02/ch2p7_001.tex`.
+- **Styling Grids**: Customized grids with styles and colors in `ch02/ch2p8_001.tex` and `ch02/ch2p8_002.tex`.
+- **Extended Tutorial**: Completed through section 2.8 of the Chapter 2 tutorial.
+
 ## [v1.1.0] - TikZ & PGF Manual Initial Progress
 
 **Exploring Vector Graphics!**

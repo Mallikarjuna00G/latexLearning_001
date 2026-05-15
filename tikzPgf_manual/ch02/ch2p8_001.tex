@@ -1,0 +1,15 @@
+% ch2p8_001.tex: Adding a touch of style
+% to grid
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\tikzset{help lines/.style=very thin}    % "help line" is like a variable/container name
+
+\tikzset{Karl's grid/.style={help lines, color=blue!50}}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[Karl's grid] (0, 0) grid (5, 5);
+	\end{tikzpicture}
+\end{document}
