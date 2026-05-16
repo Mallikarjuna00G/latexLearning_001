@@ -1,5 +1,11 @@
 # LaTeX Learning Journal
 
+## 2026-05-16
+- **TikZ & PGF Manual Study (continued):**
+- **TikZ Expansion (Sections 2.10 - 2.11):**
+  - Learned **Arc Path Construction** in `ch02/ch2p10_001.tex` and `ch02/ch2p10_002.tex`.
+  - Explored **Clipping a Path** in `ch02/ch2p11_001.tex`, understanding how to restrict drawing to a specific region.
+
 ## 2026-05-08
 - **Project Setup:** Initialized the learning repository. Configured `.gitignore` for LaTeX projects to avoid tracking intermediate build files like `.aux`, `.log`, and `.out`.
 - **Documentation Setup:** Decided to use standard documentation files including `CHANGELOG.md` for technical changes and `RELEASE_NOTES.md` for milestone summaries, in addition to this journal.

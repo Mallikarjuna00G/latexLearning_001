@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.1.2] - TikZ Tutorial Expansion (Arcs & Clipping)
+
+**Arcs and Clipping!**
+This patch release continues the TikZ tutorial, introducing arc path construction and path clipping techniques.
+
+**Highlights:**
+- **Arc Path Construction**: Implemented in `ch02/ch2p10_001.tex` and `ch02/ch2p10_002.tex`.
+- **Clipping a Path**: Explored path clipping to isolate drawing areas in `ch02/ch2p11_001.tex`.
+- **Extended Tutorial**: Completed through section 2.11 of the Chapter 2 tutorial.
+
 ## [v1.1.1] - TikZ Tutorial Expansion (Rectangle & Grid)
 
 **Shapes and Structures!**

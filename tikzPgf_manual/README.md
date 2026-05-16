@@ -18,3 +18,6 @@
 - ch2p7_001: https://youtube.com/shorts/GtFKUnCa814?feature=share
 - ch2p8_001: https://youtube.com/shorts/lBnQ7TlLF9E?feature=share
 - ch2p8_002: https://youtube.com/shorts/mPJ5E7o0YrY?feature=share
+- ch2p10_001: https://youtube.com/shorts/cqjfJFABo64?feature=share
+- ch2p10_002: https://youtube.com/shorts/u5P1EnaICuc?feature=share
+- ch2p11_001: https://youtube.com/shorts/Qu4bgCbi0A8?feature=share
