@@ -1,0 +1,13 @@
+% ch2p12_001: Parabola path construction
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw (0, 0) rectangle (1, 1) (0, 0) parabola (1, 1);
+		
+		% Bend the parabola somewhere else
+		\draw[x=1pt, y=1pt] (0, 0) parabola bend (4, 16) (6, 12);
+	\end{tikzpicture}
+\end{document}

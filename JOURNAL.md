@@ -1,5 +1,11 @@
 # LaTeX Learning Journal
 
+## 2026-05-17
+- **TikZ & PGF Manual Study (continued):**
+- **TikZ Expansion (Sections 2.12 - 2.13):**
+  - Learned **Parabola and Sine Path Construction** in `ch02/ch2p12_001.tex`, `ch02/ch2p12_002.tex`, and `ch02/ch2p12_003.tex`.
+  - Explored **Filling and Drawing** paths in `ch02/ch2p13_001.tex`, `ch02/ch2p13_002.tex`, and `ch02/ch2p13_003.tex`, learning how to fill areas and combine drawing with filling.
+
 ## 2026-05-16
 - **TikZ & PGF Manual Study (continued):**
 - **TikZ Expansion (Sections 2.10 - 2.11):**

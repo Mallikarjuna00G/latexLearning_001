@@ -21,3 +21,10 @@
 - ch2p10_001: https://youtube.com/shorts/cqjfJFABo64?feature=share
 - ch2p10_002: https://youtube.com/shorts/u5P1EnaICuc?feature=share
 - ch2p11_001: https://youtube.com/shorts/Qu4bgCbi0A8?feature=share
+- ch2p12_001: https://youtube.com/shorts/9q_awHiHlEo?feature=share
+- ch2p12_002: https://youtube.com/shorts/IdF9sMDu-7c?feature=share
+- ch2p12_003: https://youtube.com/shorts/rNIr8uEpBTg?feature=share
+- ch2p13_001: https://youtube.com/shorts/7GHlzeHjVWQ?feature=share
+- ch2p13_002: https://youtube.com/shorts/UsEC4_-AgU4?feature=share
+- ch2p13_003: https://youtube.com/shorts/liFeF6SOTU0?feature=share
+- ch2p13_003_1: https://youtube.com/shorts/aseUEj-Hjck?feature=share

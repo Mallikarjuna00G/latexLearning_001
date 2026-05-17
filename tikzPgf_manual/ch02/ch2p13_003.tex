@@ -1,0 +1,26 @@
+% ch2p13_003: Filling and drawing
+% Highlight the angle
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}[scale=2]
+		\clip[draw] (-0.1, -0.2) rectangle (1.1, 0.75);
+		
+		\draw[step=0.5cm, gray, very thin] (-1.4, -1.4) grid (1.4, 1.4);
+		\draw (-1.5, 0) -- (1.5, 0); % x-axis
+		\draw (0, -1.5) -- (0, 1.5); % y-axis
+		\draw (0, 0) circle [radius=1cm];
+		
+		% Better option to close the path is to use `cycle`.
+		% green 20% and white 80%
+		% i.e., green 50% and black 50% color.
+		% \fill[green!20!white, draw=green!50!black] (0, 0) -- (3mm, 0mm)
+		% arc [start angle=0, end angle=30, radius=3mm] -- cycle;
+		
+		% Better way is filldraw
+		\filldraw[fill=green!20!white, draw=green!50!black] (0, 0) -- (3mm, 0mm)
+		arc [start angle=0, end angle=30, radius=3mm] -- cycle;
+	\end{tikzpicture}
+\end{document}

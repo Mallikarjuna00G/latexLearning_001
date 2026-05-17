@@ -1,5 +1,14 @@
 # Release Notes
 
+## [v1.1.3] - TikZ Tutorial Expansion (Parabola, Sine & Filling)
+
+**Curves and Colors!**
+This patch release continues the TikZ tutorial, introducing parabola and sine path constructions, as well as techniques for filling shapes.
+
+**Highlights:**
+- **Parabola and Sine Paths**: Implemented curved paths in `ch02/ch2p12_001.tex`, `ch02/ch2p12_002.tex`, and `ch02/ch2p12_003.tex`.
+- **Filling and Drawing**: Explored how to fill shapes and stroke their outlines simultaneously in `ch02/ch2p13_001.tex`, `ch02/ch2p13_002.tex`, and `ch02/ch2p13_003.tex`.
+
 ## [v1.1.2] - TikZ Tutorial Expansion (Arcs & Clipping)
 
 **Arcs and Clipping!**
