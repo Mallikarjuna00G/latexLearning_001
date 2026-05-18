@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.1.4] - TikZ Tutorial Expansion (Shading & Coordinates)
+
+**Shading and Precise Positioning!**
+This patch release continues the TikZ tutorial, introducing shading techniques and advanced coordinate specification.
+
+**Highlights:**
+- **Shading**: Implemented path shading in `ch02/ch2p14_001.tex`, `ch02/ch2p14_002.tex`, and `ch02/ch2p14_003.tex`.
+- **Specifying Coordinates**: Explored various ways to specify coordinates (including intersections) in `ch02/ch2p15_001.tex`, `ch02/ch2p15_002.tex`, `ch02/ch2p15_003.tex`, `ch02/ch2p15_004.tex`, and `ch02/ch2p15_005.tex`.
+- **Extended Tutorial**: Completed through section 2.15 of the Chapter 2 tutorial.
+
 ## [v1.1.3] - TikZ Tutorial Expansion (Parabola, Sine & Filling)
 
 **Curves and Colors!**

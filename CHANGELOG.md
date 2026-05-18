@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.4] - 2026-05-18
+### Added
+- Continued TikZ & PGF manual Chapter 2 tutorial.
+- Added files for section 2.14 (Shading): `ch02/ch2p14_001.tex`, `ch02/ch2p14_002.tex`, and `ch02/ch2p14_003.tex`.
+- Added files for section 2.15 (Specifying Coordinates): `ch02/ch2p15_001.tex`, `ch02/ch2p15_002.tex`, `ch02/ch2p15_003.tex`, `ch02/ch2p15_004.tex`, and `ch02/ch2p15_005.tex`.
+
 ## [1.1.3] - 2026-05-17
 ### Added
 - Continued TikZ & PGF manual Chapter 2 tutorial.

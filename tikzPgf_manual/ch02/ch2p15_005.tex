@@ -1,0 +1,12 @@
+% ch2p15_005: Simple and clear use of + or ++ prefix to coordinates
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+		% So the format goes like
+		% <starting coordinate> <shape> <distance/measurement coordinate>
+		\draw (0, 0) rectangle +(1, 1) (1.5, 0) rectangle +(1, 1);
+	\end{tikzpicture}
+\end{document}

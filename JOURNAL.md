@@ -1,5 +1,11 @@
 # LaTeX Learning Journal
 
+## 2026-05-18
+- **TikZ & PGF Manual Study (continued):**
+- **TikZ Expansion (Sections 2.14 - 2.15):**
+  - Explored **Shading** in `ch02/ch2p14_001.tex`, `ch02/ch2p14_002.tex`, and `ch02/ch2p14_003.tex`.
+  - Learned about **Specifying Coordinates** in `ch02/ch2p15_001.tex`, `ch02/ch2p15_002.tex`, `ch02/ch2p15_003.tex`, `ch02/ch2p15_004.tex`, and `ch02/ch2p15_005.tex`, including polar coordinates and intersection calculations.
+
 ## 2026-05-17
 - **TikZ & PGF Manual Study (continued):**
 - **TikZ Expansion (Sections 2.12 - 2.13):**
