@@ -36,3 +36,7 @@
 - ch2p15_003: https://youtube.com/shorts/YnMgwWhP7N8?feature=share
 - ch2p15_004: https://youtube.com/shorts/73vxQSh_RV8?feature=share
 - ch2p15_005: https://youtube.com/shorts/lKjB8__JkjA?feature=share
+- ch2p16_001: https://youtube.com/shorts/FfdgtPsoFM8?feature=share
+- ch2p17_001: https://youtube.com/shorts/9_TMfVhA_Bk?feature=share
+- ch2p17_002: https://youtube.com/shorts/5b7TqqfkGY0?feature=share
+- ch2p17_003: https://youtube.com/shorts/E692iIoHNxI?feature=share

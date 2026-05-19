@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.1.5] - TikZ Tutorial Expansion (Intersections & Arrow Tips)
+
+**Intersections and Arrows!**
+This patch release continues the TikZ tutorial, introducing the intersection of paths and adding arrow tips to open paths.
+
+**Highlights:**
+- **Intersection of Paths**: Learned how to calculate and draw intersections between different paths.
+- **Arrow Tips**: Explored adding and styling arrow tips on open paths.
+- **Extended Tutorial**: Completed through section 2.17 of the Chapter 2 tutorial.
+
 ## [v1.1.4] - TikZ Tutorial Expansion (Shading & Coordinates)
 
 **Shading and Precise Positioning!**

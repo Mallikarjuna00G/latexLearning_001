@@ -1,5 +1,11 @@
 # LaTeX Learning Journal
 
+## 2026-05-19
+- **TikZ & PGF Manual Study (continued):**
+- **TikZ Expansion (Sections 2.16 - 2.17):**
+  - Explored **intersection of paths** (section 2.16).
+  - Learned about **adding arrow tips to open paths** (section 2.17).
+
 ## 2026-05-18
 - **TikZ & PGF Manual Study (continued):**
 - **TikZ Expansion (Sections 2.14 - 2.15):**
