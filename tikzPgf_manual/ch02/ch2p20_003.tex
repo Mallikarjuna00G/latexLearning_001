@@ -1,0 +1,14 @@
+%ch2p20_003: Repeating things: For loops
+% foreach: shift lines
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+		\foreach \x in {-1, -0.5, 1}
+		{
+			\draw[xshift=\x cm] (0pt, -1pt) -- (0pt, 1pt);
+		}
+	\end{tikzpicture}
+\end{document}

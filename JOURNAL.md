@@ -2,9 +2,11 @@
 
 ## 2026-05-20
 - **TikZ & PGF Manual Study (continued):**
-- **TikZ Expansion (Sections 2.18 - 2.19):**
+- **TikZ Expansion (Sections 2.18 - 2.20):**
   - Explored **Scoping**, learning how to localize path styles and options.
   - Learned about **Transformations**, understanding how to scale, shift, and rotate coordinate systems.
+  - Explored **For Loops**, learning how to automate repetitive drawing tasks using `\foreach`.
+  
 ## 2026-05-19
 - **TikZ & PGF Manual Study (continued):**
 - **TikZ Expansion (Sections 2.16 - 2.17):**

@@ -43,3 +43,15 @@
 - ch2p18_001: https://youtube.com/shorts/KbaDTuALW5s?feature=share
 - ch2p19_001: https://youtube.com/shorts/MOci5DcTjdg?feature=share
 - ch2p19_002: https://youtube.com/shorts/FdfGdGdTpxU?feature=share
+- ch2p20_001: https://youtube.com/shorts/YFgTinmfoqc?feature=share
+- ch2p20_002: https://youtube.com/shorts/6ta1ResgIes?feature=share
+- ch2p20_003: https://youtube.com/shorts/wF7p-uoe4Zk?feature=share
+- ch2p20_004: https://youtube.com/shorts/gq2u7vBB6QE?feature=share
+- ch2p20_005: https://youtube.com/shorts/j6d2Jehqyg0?feature=share
+- ch2p20_006: https://youtube.com/shorts/OeVA8SZUnqc?feature=share
+
+
+
+| LaTeX | TikZ & PGF | #latex #tikz #pgf
+
+latex,tikz,pgf,latex-graphics

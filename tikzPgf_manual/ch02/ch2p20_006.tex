@@ -1,0 +1,16 @@
+% ch2p20_006: Repeating things: For loops
+% foreach: nested loops
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+		\foreach \x in {1, 2, ..., 5, 7, 8, ..., 12}{
+			\foreach \y in {1, ..., 5}{
+				\draw (\x, \y) +(-0.5, -0.5) rectangle ++(0.5, 0.5);
+				\draw (\x, \y) node{\x, \y};
+			}
+		}
+	\end{tikzpicture}
+\end{document}

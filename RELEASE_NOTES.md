@@ -1,5 +1,14 @@
 # Release Notes
 
+## [v1.1.7] - TikZ Tutorial Expansion (For Loops)
+
+**Repeating things!**
+This patch release continues the TikZ tutorial, introducing the powerful `\foreach` command.
+
+**Highlights:**
+- **For Loops**: Learned how to automate repetitive drawing tasks using `\foreach`.
+- **Extended Tutorial**: Completed through section 2.20 of the Chapter 2 tutorial.
+
 ## [v1.1.6] - TikZ Tutorial Expansion (Scoping & Transformations)
 
 **Scoping and Transformations!**
