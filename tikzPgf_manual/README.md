@@ -40,3 +40,6 @@
 - ch2p17_001: https://youtube.com/shorts/9_TMfVhA_Bk?feature=share
 - ch2p17_002: https://youtube.com/shorts/5b7TqqfkGY0?feature=share
 - ch2p17_003: https://youtube.com/shorts/E692iIoHNxI?feature=share
+- ch2p18_001: https://youtube.com/shorts/KbaDTuALW5s?feature=share
+- ch2p19_001: https://youtube.com/shorts/MOci5DcTjdg?feature=share
+- ch2p19_002: https://youtube.com/shorts/FdfGdGdTpxU?feature=share

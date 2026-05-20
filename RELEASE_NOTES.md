@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.1.6] - TikZ Tutorial Expansion (Scoping & Transformations)
+
+**Scoping and Transformations!**
+This patch release continues the TikZ tutorial, introducing scoping environments and coordinate transformations.
+
+**Highlights:**
+- **Scoping**: Learned how to create local scopes for styles and settings.
+- **Transformations**: Explored coordinate transformations (scaling, shifting, rotating).
+- **Extended Tutorial**: Completed through section 2.19 of the Chapter 2 tutorial.
+
 ## [v1.1.5] - TikZ Tutorial Expansion (Intersections & Arrow Tips)
 
 **Intersections and Arrows!**
