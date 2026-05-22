@@ -1,0 +1,15 @@
+% ch2p21_005: Addiing text
+% Text along slopes
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw (0, 0) .. controls (6, 1) and (9, 1) ..
+			node[near start, sloped, above] {near start}
+			node {midway}
+			node[very near end, sloped, below] {very near end}
+			(12, 0);
+	\end{tikzpicture}
+\end{document}

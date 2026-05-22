@@ -49,9 +49,19 @@
 - ch2p20_004: https://youtube.com/shorts/gq2u7vBB6QE?feature=share
 - ch2p20_005: https://youtube.com/shorts/j6d2Jehqyg0?feature=share
 - ch2p20_006: https://youtube.com/shorts/OeVA8SZUnqc?feature=share
-
-
+- ch2p21_001: https://youtube.com/shorts/XDw7_ht9mG0?feature=share
+- ch2p21_002: https://youtube.com/shorts/H0zoh-yYaZw?feature=share
+- ch2p21_003: https://youtube.com/shorts/5VlvcvvZEsM?feature=share
+- ch2p21_004: https://youtube.com/shorts/HsIe3S7uf54?feature=share
+- ch2p21_005: https://youtube.com/shorts/JdI8rkvEWEM?feature=share
+- ch2p21_006:
+    - Part1: https://youtube.com/shorts/T2pPHCqS-j0?feature=share
+    - Part2: https://youtube.com/shorts/IYA-Vl0pCRQ?feature=share
+    - Part3: https://youtube.com/shorts/M_P9P-e3dcc?feature=share
+- ch2p22_001: https://youtube.com/shorts/AZgcQzSFQiY?feature=share
 
 | LaTeX | TikZ & PGF | #latex #tikz #pgf
+
+Playlist TikzPgf_Set1: https://www.youtube.com/playlist?list=PLrc97KaHTPpsLnX8gIxdofCyHpQT3EYP3
 
 latex,tikz,pgf,latex-graphics

@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.2.0] - TikZ Tutorial Chapter 2 Completion (Text, Pics & Angles)
+
+**Chapter 2 Completed!**
+This minor release marks the completion of Chapter 2 ("Tutorial: A Picture for Karl's Students") from the TikZ & PGF manual. It introduces text placement, node annotations, and custom coordinate and angle drawing features to wrap up the tutorial.
+
+**Highlights:**
+- **Adding Text**: Learned how to place nodes and text labels along paths and shapes (section 2.21).
+- **Pics and Angles**: Explored drawing angles and complex decorative structures using the `pic` and `angle` commands (section 2.22).
+- **Milestone Reached**: Completed all sections of the Chapter 2 tutorial.
+
 ## [v1.1.7] - TikZ Tutorial Expansion (For Loops)
 
 **Repeating things!**

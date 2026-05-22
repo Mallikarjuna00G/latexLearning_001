@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-05-22
+### Added
+- Completed Chapter 2 ("Tutorial: A Picture for Karl's Students") of the TikZ & PGF manual.
+- Covered adding text/nodes along paths and shapes (section 2.21).
+- Covered using the `pic` and `angle` commands for drawing angles and decorations (section 2.22).
+
 ## [1.1.7] - 2026-05-20
 ### Added
 - Continued TikZ & PGF manual Chapter 2 tutorial.

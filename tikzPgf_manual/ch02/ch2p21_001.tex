@@ -1,0 +1,13 @@
+% ch2p21_001: Adding text
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw (0, 0) rectangle (2, 2);
+		
+		% verb: verbatim- display code or text exactly as I type it, preventing LaTeX from interpreting special characters (like \, {, $, or %}) as formatting commands.
+		\draw (0.5, 0.5) node [fill=yellow!80!black] {Text at \verb|node 1|} -- (1.5, 1.5) node {Text at \verb|node 2|};
+	\end{tikzpicture}
+\end{document}

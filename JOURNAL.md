@@ -1,5 +1,12 @@
 # LaTeX Learning Journal
 
+## 2026-05-22
+- **TikZ & PGF Manual Study (continued):**
+  - **TikZ Chapter 2 Completion (Sections 2.21 - 2.22):**
+    - Explored **Adding Text** (section 2.21), learning how to place nodes and labels along paths and coordinates.
+    - Mastered the **pic and angle commands** (section 2.22) to draw angles and complex, reusable decoration graphics.
+    - **Milestone:** Successfully completed Chapter 2 ("Tutorial: A Picture for Karl's Students") of the TikZ & PGF manual.
+
 ## 2026-05-20
 - **TikZ & PGF Manual Study (continued):**
 - **TikZ Expansion (Sections 2.18 - 2.20):**
