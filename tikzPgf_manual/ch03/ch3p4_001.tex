@@ -1,0 +1,16 @@
+% ch3p4_001: Placing the nodes using the at syntax
+% node using "at".
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, decorations.pathmorphing, backgrounds, positioning, fit, petri}
+
+\begin{document}
+	\begin{tikzpicture}
+		\path node at (0, 2) [shape=circle, draw] {}
+			node at (0, 1) [shape=circle, draw] {}
+			node at (0, 0) [shape=circle, draw] {}
+			node at (1, 1) [shape=rectangle, draw] {}
+			node at (-1, 1) [shape=rectangle, draw] {};
+	\end{tikzpicture}
+\end{document}

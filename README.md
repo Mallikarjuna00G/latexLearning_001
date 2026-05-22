@@ -12,6 +12,7 @@ Learning Latex tool
 3. [Manual (pdf): TikZ & PGF packages](./Manual_TikZ_PGF_packages.pdf):
 - Source: [https://www.ctan.org/pkg/pgf](https://www.ctan.org/pkg/pgf)
 - Manual for Version 3.1.11a
+- Local location: [tikzPgf_manual](./tikzPgf_manual/)
 
 ## Environment setup instruction
 

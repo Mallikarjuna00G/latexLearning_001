@@ -60,6 +60,16 @@
     - Part3: https://youtube.com/shorts/M_P9P-e3dcc?feature=share
 - ch2p22_001: https://youtube.com/shorts/AZgcQzSFQiY?feature=share
 
+## Chapter 3: Tutorial: A Petri-Net for Hagen
+
+[ch03](./ch03/)
+
+- ch3p2p1_001: https://youtube.com/shorts/tng2vnCjoi8?feature=share
+- ch3p3_001: https://youtube.com/shorts/AvZ_Mo6uB0M?feature=share
+- ch3p4_001: https://youtube.com/shorts/0-s_EREjYrM?feature=share
+- ch3p4_002: https://youtube.com/shorts/TTqfYwywIcQ?feature=share
+
+
 | LaTeX | TikZ & PGF | #latex #tikz #pgf
 
 Playlist TikzPgf_Set1: https://www.youtube.com/playlist?list=PLrc97KaHTPpsLnX8gIxdofCyHpQT3EYP3

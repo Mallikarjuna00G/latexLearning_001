@@ -1,0 +1,15 @@
+% ch3p3_001: Introduction to nodes
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, decorations.pathmorphing, backgrounds, positioning, fit, petri}
+
+\begin{document}
+	\begin{tikzpicture}
+		\path (0, 2) node[shape=circle, draw] {}
+			(0, 1) node[shape=circle, draw] {}
+			(0, 0) node[shape=circle, draw] {}
+			(1, 1) node[shape=rectangle, draw] {}
+			(-1, 1) node[shape=rectangle, draw] {};
+	\end{tikzpicture}
+\end{document}

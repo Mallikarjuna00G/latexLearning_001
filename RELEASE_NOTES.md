@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.3.0] - TikZ Tutorial Chapter 3 Initiation (Petri-Nets & Nodes)
+
+**Beginning Chapter 3!**
+This minor release marks the start of Chapter 3 ("Tutorial: A Petri-Net for Hagen") from the TikZ & PGF manual. It introduces environment setup for Petri-nets and the basics of node placement and drawing in TikZ.
+
+**Highlights:**
+- **Petri-Net Environment Setup**: Learned how to set up the Linux environment for Hagen's Petri-net activity (section 3.2.1).
+- **Node Introduction**: Explored basic node structures and options in TikZ (section 3.3).
+- **Node Positioning**: Learned how to place nodes at specific coordinates using the `at` syntax (section 3.4).
+
 ## [v1.2.0] - TikZ Tutorial Chapter 2 Completion (Text, Pics & Angles)
 
 **Chapter 2 Completed!**
