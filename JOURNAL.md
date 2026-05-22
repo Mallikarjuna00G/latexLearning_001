@@ -2,10 +2,13 @@
 
 ## 2026-05-22
 - **YouTube Upload Automation:**
-  - **Script Development & Initial Testing:**
+  - **Script Development & Initial Testing (v1.3.1):**
     - Developed C++ scripts to partially automate uploading tutorial demo videos to YouTube.
     - Configured secure credential handling by updating the gitignore to exclude secrets and build outputs.
     - Added comprehensive setup, compilation, and execution instructions to the manual's documentation.
+  - **CMake Build System Integration (v1.3.2):**
+    - Added CMake configuration to compile the automation scripts into direct executables, featuring a default uploader target and a non-default token retriever target.
+    - Added comprehensive CMake build and direct execution instructions to the manual's README.
 - **TikZ & PGF Manual Study (continued):**
   - **TikZ Chapter 2 Completion (Sections 2.21 - 2.22):**
     - Explored **Adding Text** (section 2.21), learning how to place nodes and labels along paths and coordinates.

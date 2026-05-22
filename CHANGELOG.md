@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.2] - 2026-05-22
+### Added
+- Added CMake configuration to compile the automation tools into native executables, featuring a default uploader target and a non-default token retriever target.
+- Integrated CMake build instructions and direct binary execution guidelines into the manual's README.
+
 ## [1.3.1] - 2026-05-22
 ### Added
 - Developed C++ scripts to partially automate uploading video demonstrations to YouTube (currently in testing mode).

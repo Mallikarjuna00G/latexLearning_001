@@ -122,3 +122,45 @@ Eg:
 ```console
 ./yt_upload.out build/output_render.mp4
 ```
+
+
+### Compilation via CMake
+
+Alternatively, you can build both tools using CMake:
+
+1. Create and navigate to a build directory inside `tikzPgf_manual`:
+   ```console
+   mkdir -p build && cd build
+   ```
+
+2. Generate the build files:
+   ```console
+   cmake ..
+   ```
+   *Note: To build in Release mode (which compiles the uploader with optimization flags), use `cmake -DCMAKE_BUILD_TYPE=Release ..`.*
+
+3. Build the default uploader target:
+   ```console
+   cmake --build .
+   ```
+   This generates the executable `./yt_upload.out` in the build directory.
+
+4. Build the non-default token retriever target:
+   ```console
+   cmake --build . --target get_refresh_token
+   ```
+   This generates the executable `./get_token.out` in the build directory.
+
+### Running the Compiled Binaries
+
+Once compiled, you can launch the binaries directly from your build folder, passing arguments exactly as before:
+
+- **Retrieve refresh token**:
+  ```console
+  ./get_token.out
+  ```
+
+- **Upload a video**:
+  ```console
+  ./yt_upload.out <path_to_video.mp4>
+  ```

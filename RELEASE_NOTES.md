@@ -1,5 +1,14 @@
 # Release Notes
 
+## [v1.3.2] - YouTube Upload Automation (CMake Integration)
+
+**CMake integration for the upload tools!**
+This release introduces CMake support for the automation tools, making it easy to build them with standard commands and run them with direct command-line arguments.
+
+**Highlights:**
+- **CMake Support**: Added CMake configuration to compile the C++ tools into native executables, featuring a default target for the uploader and a non-default target (excluded from default builds) for retrieving refresh tokens.
+- **Documentation**: Integrated CMake build instructions and direct binary execution guidelines into the manual's README.
+
 ## [v1.3.1] - YouTube Upload Automation (Initial Testing)
 
 **Partial YouTube upload automation!**
