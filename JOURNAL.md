@@ -1,6 +1,11 @@
 # LaTeX Learning Journal
 
 ## 2026-05-22
+- **YouTube Upload Automation:**
+  - **Script Development & Initial Testing:**
+    - Developed C++ scripts to partially automate uploading tutorial demo videos to YouTube.
+    - Configured secure credential handling by updating the gitignore to exclude secrets and build outputs.
+    - Added comprehensive setup, compilation, and execution instructions to the manual's documentation.
 - **TikZ & PGF Manual Study (continued):**
   - **TikZ Chapter 2 Completion (Sections 2.21 - 2.22):**
     - Explored **Adding Text** (section 2.21), learning how to place nodes and labels along paths and coordinates.

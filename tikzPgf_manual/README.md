@@ -75,3 +75,50 @@
 Playlist TikzPgf_Set1: https://www.youtube.com/playlist?list=PLrc97KaHTPpsLnX8gIxdofCyHpQT3EYP3
 
 latex,tikz,pgf,latex-graphics
+
+
+## Youtube API handling setup
+
+Place the `client_secrets.json` in the same directory of the C++ source files. **But definitely do not share/git track** this file.
+
+```console
+sudo apt install libcurl4-openssl-dev nlohmann-json3-dev
+```
+
+We have [get_refresh_token.cpp](./get_refresh_token.cpp) for getting the refresh token.
+
+Compilation command:
+
+```console
+g++ -std=c++17 get_refresh_token.cpp -lcurl -o get_token.out
+```
+
+Running command:
+
+```console
+./get_token.out
+```
+
+This will open the browser for authentication. After authentication, it will print the refresh token.
+
+Copy that outputted token safely. Or may add the refresh token as a key-value pair to `client_secrets.json` giving key name as `refresh_token`.
+
+
+And we have [uploader.cpp](./uploader.cpp) for uploading the video to youtube.
+
+Compilation command:
+
+```console
+g++ -O3 -std=c++17 uploader.cpp -lcurl -o yt_upload.out
+```
+
+Execution command:
+
+```console
+./yt_upload.out <video_path>
+```
+
+Eg: 
+```console
+./yt_upload.out build/output_render.mp4
+```

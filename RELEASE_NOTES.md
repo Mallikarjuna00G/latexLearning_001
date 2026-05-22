@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.3.1] - YouTube Upload Automation (Initial Testing)
+
+**Partial YouTube upload automation!**
+This release introduces initial testing-mode C++ scripts to partially automate uploading TikZ/LaTeX video shorts to YouTube. 
+
+**Highlights:**
+- **YouTube API Integration**: Added C++ scripts that handle Google OAuth refresh token retrieval and multipart video upload to YouTube (in testing mode).
+- **Security Enhancements**: Configured gitignore to prevent accidental tracking of API credentials and compiled binaries.
+- **Documentation**: Added setup, compilation, and execution guidelines to the manual's documentation.
+
 ## [v1.3.0] - TikZ Tutorial Chapter 3 Initiation (Petri-Nets & Nodes)
 
 **Beginning Chapter 3!**
