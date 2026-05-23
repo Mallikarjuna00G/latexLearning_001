@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.3.6] - TikZ Tutorial Chapter 3 Continuation (Labels next to lines, Snaked lines & Layers)
+
+**Continuing Chapter 3!**
+This release covers sections 3.11 through 3.13 of Chapter 3 from the TikZ & PGF manual, focusing on adding labels next to lines, adding snaked lines & multi-line text, and using background layers.
+
+**Highlights:**
+- **Labels next to lines**: Learned how to place label nodes along lines/paths (section 3.11).
+- **Snaked lines & multi-line text**: Explored drawing decorative snaked paths and structuring multi-line text inside nodes (section 3.12).
+- **Layers & background**: Mastered using layers to place background rectangles behind existing diagram elements (section 3.13).
+
 ## [v1.3.5] - TikZ Tutorial Chapter 3 Continuation (Relative Placement, Labels & Connections)
 
 **Continuing Chapter 3!**

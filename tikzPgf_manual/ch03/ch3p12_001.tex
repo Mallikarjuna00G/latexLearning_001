@@ -1,0 +1,12 @@
+% ch3p12_001: Adding the snaked line & multi-line text
+% snaked line
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw [->, decorate, decoration={snake}] (0, 0) -- (2, 0);
+	\end{tikzpicture}
+\end{document}

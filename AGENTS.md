@@ -34,10 +34,10 @@ Do not do anything else.
 
 ---
 
-I completed sections 3.8 - 3.10.
-- 3.8: Placing nodes using relative placements.
-- 3.9: Adding labels next to nodes.
-- 3.10: Connecting nodes.
+I completed sections 3.11 - 3.13.
+- 3.11: Adding labels next to lines
+- 3.12: Adding the snaked line & multi-line text
+- 3.13: Using layers: The background rectangles
 
 Update the documentation files
 - RELEASE_NOTES.md
@@ -46,6 +46,6 @@ Update the documentation files
 
 No need to list the tex file names in the documentation files.
 
-Once I approve the suggested content, go ahead and git track the files. And go for git commit.
+Git track and go for git commit.
 
 Do not touch anything else.

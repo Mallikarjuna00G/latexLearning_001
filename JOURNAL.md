@@ -2,6 +2,10 @@
 
 ## 2026-05-23
 - **TikZ & PGF Manual Study (continued):**
+  - **TikZ Chapter 3 (Sections 3.11 - 3.13) (v1.3.6):**
+    - Explored **Adding labels next to lines** (section 3.11).
+    - Learned about **Adding the snaked line & multi-line text** (section 3.12).
+    - Mastered **Using layers: The background rectangles** (section 3.13).
   - **TikZ Chapter 3 (Sections 3.8 - 3.10) (v1.3.5):**
     - Explored **Placing nodes using relative placements** (section 3.8).
     - Learned about **Adding labels next to nodes** (section 3.9).

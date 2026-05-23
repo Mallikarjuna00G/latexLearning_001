@@ -1,0 +1,15 @@
+% ch3p12_004: Adding the snaked line & multi-line text
+% Multi-line text - text width
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw [->, decorate, decoration={snake, amplitude=0.4mm, segment length=2mm, post length=1mm}] (0, 0) -- (3, 0)
+			node [above, text width=3cm, align=center, midway] {
+				replacement of the \textcolor{red}{capacity} by \textcolor{red}{two places}
+			};
+	\end{tikzpicture}
+\end{document}

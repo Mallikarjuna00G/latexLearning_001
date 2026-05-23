@@ -86,6 +86,13 @@
 - ch3p10_005: https://youtube.com/shorts/FjJKEaQ6Fck
 - ch3p10_006: https://youtube.com/shorts/ej33gBKYJMk
 - ch3p10_007: https://youtube.com/shorts/9p910OruymI
+- ch3p11_001: https://youtube.com/shorts/KgMUQ7UrXmk
+- ch3p11_002: https://youtube.com/shorts/PLY8FNeDy10
+- ch3p12_001: https://youtube.com/shorts/T6RfVgebLCg
+- ch3p12_002: https://youtube.com/shorts/436KYYUQGT4
+- ch3p12_003: https://youtube.com/shorts/p43pXTemqv0
+- ch3p12_004: https://youtube.com/shorts/auy6ZHbc8mM
+- ch3p13_001: https://youtube.com/shorts/YRDRv5r2yD8
 
 | LaTeX | TikZ & PGF | #latex #tikz #pgf
 
