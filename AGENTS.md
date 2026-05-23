@@ -34,10 +34,10 @@ Do not do anything else.
 
 ---
 
-I completed sections 3.5 - 3.7.
-- 3.5: Using styles
-- 3.6: node size
-- 3.7: naming nodes.
+I completed sections 3.8 - 3.10.
+- 3.8: Placing nodes using relative placements.
+- 3.9: Adding labels next to nodes.
+- 3.10: Connecting nodes.
 
 Update the documentation files
 - RELEASE_NOTES.md
@@ -46,6 +46,6 @@ Update the documentation files
 
 No need to list the tex file names in the documentation files.
 
-Once I approve the suggested content, go ahead and git track the files. And prepare a good brief message for git commit.
+Once I approve the suggested content, go ahead and git track the files. And go for git commit.
 
 Do not touch anything else.

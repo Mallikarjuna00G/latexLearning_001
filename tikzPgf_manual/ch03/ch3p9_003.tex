@@ -1,0 +1,12 @@
+% ch3p9_003: Adding labels next to nodes
+% Using multiple "label" options
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, decorations.pathmorphing, backgrounds, positioning, fit, petri}
+
+\begin{document}
+	\begin{tikzpicture}
+		\node [circle, draw, label=60:$60^\circ$, label=below:$-90^\circ$] {my circle};
+	\end{tikzpicture}
+\end{document}

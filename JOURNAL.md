@@ -2,6 +2,10 @@
 
 ## 2026-05-23
 - **TikZ & PGF Manual Study (continued):**
+  - **TikZ Chapter 3 (Sections 3.8 - 3.10) (v1.3.5):**
+    - Explored **Placing nodes using relative placements** (section 3.8).
+    - Learned about **Adding labels next to nodes** (section 3.9).
+    - Mastered **Connecting nodes** (section 3.10).
   - **TikZ Chapter 3 (Sections 3.5 - 3.7) (v1.3.4):**
     - Explored **Using styles** (section 3.5) to define reusable shapes and styling rules.
     - Learned about **node size** configuration (section 3.6) to custom-fit nodes.

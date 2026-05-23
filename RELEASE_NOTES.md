@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.3.5] - TikZ Tutorial Chapter 3 Continuation (Relative Placement, Labels & Connections)
+
+**Continuing Chapter 3!**
+This release covers sections 3.8 through 3.10 of Chapter 3 from the TikZ & PGF manual, focusing on placing nodes relatively, adding labels next to nodes, and connecting nodes.
+
+**Highlights:**
+- **Relative Placements**: Learned how to place nodes relative to other nodes using positioning keys (section 3.8).
+- **Adding Labels**: Explored adding label nodes next to existing nodes for cleaner annotations (section 3.9).
+- **Connecting Nodes**: Mastered drawing paths/edges to connect nodes (section 3.10).
+
 ## [v1.3.4] - TikZ Tutorial Chapter 3 Continuation (Styles, Sizes & Naming)
 
 **Continuing Chapter 3!**

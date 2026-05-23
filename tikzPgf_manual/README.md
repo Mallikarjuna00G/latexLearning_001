@@ -74,6 +74,18 @@
 - ch3p7_001: https://youtube.com/shorts/YpdNFDPhu_c
 - ch3p7_002: https://youtube.com/shorts/UDFfJU82z0A
 - ch3p7_003: https://youtube.com/shorts/5hWM9gGs7Do
+- ch3p8_001: https://youtube.com/shorts/FAOjllhuT1E
+- ch3p9_001: https://youtube.com/shorts/Ix1bXT3X6H0
+- ch3p9_002: https://youtube.com/shorts/hZUsrAc1dzY
+- ch3p9_003: https://youtube.com/shorts/UVyzfwWZhZk
+- ch3p9_004: https://youtube.com/shorts/VEBV7uQvI4Y
+- ch3p10_001: https://youtube.com/shorts/PYG447THOwc
+- ch3p10_002: https://youtube.com/shorts/SQv6b0eJBPo
+- ch3p10_003: https://youtube.com/shorts/MTHulaJdU2U
+- ch3p10_004: https://youtube.com/shorts/iSy9JZPrqSk
+- ch3p10_005: https://youtube.com/shorts/FjJKEaQ6Fck
+- ch3p10_006: https://youtube.com/shorts/ej33gBKYJMk
+- ch3p10_007: https://youtube.com/shorts/9p910OruymI
 
 | LaTeX | TikZ & PGF | #latex #tikz #pgf
 
