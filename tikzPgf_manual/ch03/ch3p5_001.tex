@@ -1,0 +1,15 @@
+% ch3p5_001: Using styles
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, decorations.pathmorphing, backgrounds, positioning, fit, petri}
+
+\begin{document}
+	\begin{tikzpicture}
+		\node at (0, 2) [circle, draw=blue!50, fill=blue!20] {};
+		\node at (0, 1) [circle, draw=blue!50, fill=blue!20] {};
+		\node at (0, 0) [circle, draw=blue!50, fill=blue!20] {};
+		\node at (1, 1) [rectangle, draw=black!50, fill=black!20] {};
+		\node at (-1, 1) [rectangle, draw=black!50, fill=black!20] {};
+	\end{tikzpicture}
+\end{document}

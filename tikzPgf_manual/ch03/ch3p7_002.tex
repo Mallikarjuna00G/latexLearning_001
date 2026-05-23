@@ -1,0 +1,20 @@
+% ch3p7_002: Naming nodes
+% using parentheses
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, decorations.pathmorphing, backgrounds, positioning, fit, petri}
+
+\begin{document}
+	\begin{tikzpicture}[
+		%inner sep=2mm,
+		place/.style={circle, draw=blue!50, fill=blue!20, thick, inner sep=0pt, minimum size=6mm},
+		transition/.style={rectangle, draw=black!50, fill=black!20, thick, inner sep=0pt, minimum size=4mm}
+		]
+		\node (waiting 1) at (0, 2) [place] {};
+		\node (critical 1) at (0, 1) [place] {};
+		\node (semaphore) at (0, 0) [place] {};
+		\node (leave critical) at (1, 1) [transition] {};
+		\node (enter critical) at (-1, 1) [transition] {};
+	\end{tikzpicture}
+\end{document}

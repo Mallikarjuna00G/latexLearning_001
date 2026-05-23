@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.4] - 2026-05-23
+### Added
+- Continued Chapter 3 ("Tutorial: A Petri-Net for Hagen") of the TikZ & PGF manual.
+- Covered using styles in TikZ (section 3.5).
+- Covered configuring node size (section 3.6).
+- Covered naming nodes for coordinate references (section 3.7).
+
 ## [1.3.3] - 2026-05-23
 ### Added
 - Implemented Title (<= 100 characters), Description (<= 5000 characters), and Tags (<= 500 characters, including separating commas) metadata length validations in `uploader.cpp` to halt execution before transmission on violation.

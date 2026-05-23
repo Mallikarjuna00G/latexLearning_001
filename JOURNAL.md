@@ -1,6 +1,11 @@
 # LaTeX Learning Journal
 
 ## 2026-05-23
+- **TikZ & PGF Manual Study (continued):**
+  - **TikZ Chapter 3 (Sections 3.5 - 3.7) (v1.3.4):**
+    - Explored **Using styles** (section 3.5) to define reusable shapes and styling rules.
+    - Learned about **node size** configuration (section 3.6) to custom-fit nodes.
+    - Mastered **naming nodes** (section 3.7) to reference them as coordinates in paths.
 - **YouTube Upload Automation Refinement (v1.3.3):**
   - Migrated video upload metadata from hardcoded C++ variables in `uploader.cpp` to `video_metadata.json`.
   - Implemented length validation checks for Title (<= 100 characters), Description (<= 5000 characters), and Tags (<= 500 characters), safely halting execution on overflow.

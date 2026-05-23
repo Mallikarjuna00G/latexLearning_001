@@ -1,5 +1,15 @@
 # Release Notes
 
+## [v1.3.4] - TikZ Tutorial Chapter 3 Continuation (Styles, Sizes & Naming)
+
+**Continuing Chapter 3!**
+This release covers sections 3.5 through 3.7 of Chapter 3 from the TikZ & PGF manual, focusing on custom styles, node size configurations, and naming nodes for coordinate references.
+
+**Highlights:**
+- **Using Styles**: Learned how to define and apply custom styles for drawing elements (section 3.5).
+- **Node Sizes**: Explored options for controlling the size and dimensions of nodes (section 3.6).
+- **Naming Nodes**: Mastered naming nodes to reuse their positions as coordinates in paths (section 3.7).
+
 ## [v1.3.3] - YouTube Upload Automation (External Metadata Configuration & Features)
 
 **Separation of metadata, character validation, and playlist integration!**

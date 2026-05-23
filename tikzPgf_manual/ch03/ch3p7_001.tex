@@ -1,0 +1,20 @@
+% ch3p7_001: Naming nodes
+% using `name` option
+\documentclass[tikz, border=10pt]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, decorations.pathmorphing, backgrounds, positioning, fit, petri}
+
+\begin{document}
+	\begin{tikzpicture}[
+		%inner sep=2mm,
+		place/.style={circle, draw=blue!50, fill=blue!20, thick, inner sep=0pt, minimum size=6mm},
+		transition/.style={rectangle, draw=black!50, fill=black!20, thick, inner sep=0pt, minimum size=4mm}
+		]
+		\node at (0, 2) [name=waiting 1, place] {};
+		\node at (0, 1) [name=critical 1, place] {};
+		\node at (0, 0) [name=semaphore, place] {};
+		\node at (1, 1) [name=leave critical, transition] {};
+		\node at (-1, 1) [name=enter critical, transition] {};
+	\end{tikzpicture}
+\end{document}

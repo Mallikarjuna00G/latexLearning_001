@@ -31,3 +31,21 @@ The get_refresh_token.cpp file also requires client_secrets.json file.
 Please do the needed changes in CMakeLists.txt file.
 
 Do not do anything else.
+
+---
+
+I completed sections 3.5 - 3.7.
+- 3.5: Using styles
+- 3.6: node size
+- 3.7: naming nodes.
+
+Update the documentation files
+- RELEASE_NOTES.md
+- JOURNAL.md
+- CHANGELOG.md
+
+No need to list the tex file names in the documentation files.
+
+Once I approve the suggested content, go ahead and git track the files. And prepare a good brief message for git commit.
+
+Do not touch anything else.
