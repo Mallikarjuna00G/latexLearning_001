@@ -1,5 +1,14 @@
 # LaTeX Learning Journal
 
+## 2026-05-23
+- **YouTube Upload Automation Refinement (v1.3.3):**
+  - Migrated video upload metadata from hardcoded C++ variables in `uploader.cpp` to `video_metadata.json`.
+  - Implemented length validation checks for Title (<= 100 characters), Description (<= 5000 characters), and Tags (<= 500 characters), safely halting execution on overflow.
+  - Added support for playlist integration by invoking the `playlistItems.insert` API post-upload to automatically assign the video to the specified playlist.
+  - Configured OAuth scope in `get_refresh_token.cpp` to `"https://www.googleapis.com/auth/youtube"` to permit playlist management.
+  - Implemented aspect ratio auto-detection using `ffprobe` to differentiate vertical/square Shorts from standard horizontal videos and format successful upload URLs accordingly.
+  - Updated `CMakeLists.txt` to copy `client_secrets.json` and `video_metadata.json` to the build directory using `configure_file` to ensure they automatically sync on build.
+
 ## 2026-05-22
 - **YouTube Upload Automation:**
   - **Script Development & Initial Testing (v1.3.1):**

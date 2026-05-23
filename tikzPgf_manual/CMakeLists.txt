@@ -14,7 +14,16 @@ add_executable(uploader uploader.cpp)
 target_link_libraries(uploader PRIVATE CURL::libcurl nlohmann_json::nlohmann_json)
 set_target_properties(uploader PROPERTIES OUTPUT_NAME "yt_upload.out")
 
+# Copy video_metadata.json next to the executables when built
+configure_file(video_metadata.json ${CMAKE_CURRENT_BINARY_DIR}/video_metadata.json COPYONLY)
+
+# Copy client_secrets.json next to the executables if it exists
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/client_secrets.json")
+    configure_file(client_secrets.json ${CMAKE_CURRENT_BINARY_DIR}/client_secrets.json COPYONLY)
+endif()
+
 # Non-default target for get_refresh_token.cpp (excluded from default 'all' build)
 add_executable(get_refresh_token EXCLUDE_FROM_ALL get_refresh_token.cpp)
 target_link_libraries(get_refresh_token PRIVATE CURL::libcurl nlohmann_json::nlohmann_json)
 set_target_properties(get_refresh_token PROPERTIES OUTPUT_NAME "get_token.out")
+

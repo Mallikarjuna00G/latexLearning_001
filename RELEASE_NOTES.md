@@ -1,5 +1,17 @@
 # Release Notes
 
+## [v1.3.3] - YouTube Upload Automation (External Metadata Configuration & Features)
+
+**Separation of metadata, character validation, and playlist integration!**
+This release introduces the ability to configure YouTube video metadata externally using a JSON file, validates content constraints (title, description, and tags limits), integrates automatic playlist assignment, and logs warnings for unsupported platform settings. It also features automatic copy rules in the CMake build system for configuration files and credentials.
+
+**Highlights:**
+- **External Metadata JSON**: Configured C++ source code to parse video details (title, description, tags, privacy status) dynamically from `video_metadata.json` instead of being hardcoded in compilation.
+- **Character Validations**: Added validations to halt execution if a title exceeds 100 characters, a description exceeds 5000 characters, or tags exceed 500 characters.
+- **Playlist Integration**: Automatically associates uploaded videos with specified playlists via the `playlistItems.insert` endpoint if a `playlistId` is provided in the JSON configuration.
+- **Aspect Ratio Auto-Detection**: Dynamically queries the video resolution using `ffprobe` and formats the success link as a Short (`/shorts/`) or normal video depending on the aspect ratio.
+- **CMake Dependency Updates**: Enhanced `CMakeLists.txt` to automatically copy `client_secrets.json` and `video_metadata.json` next to target binaries when built.
+
 ## [v1.3.2] - YouTube Upload Automation (CMake Integration)
 
 **CMake integration for the upload tools!**

@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.3] - 2026-05-23
+### Added
+- Implemented Title (<= 100 characters), Description (<= 5000 characters), and Tags (<= 500 characters, including separating commas) metadata length validations in `uploader.cpp` to halt execution before transmission on violation.
+- Added a POST request call in `uploader.cpp` to the YouTube `playlistItems.insert` endpoint, enabling automatic playlist association if a `playlistId` is specified.
+- Implemented warning logs for unsupported Shorts properties (such as `relatedVideoId`) which must be configured manually via YouTube Studio.
+- Added new parameters to `video_metadata.json` including `playlistId`, `relatedVideoId`, `selfDeclaredMadeForKids`, `containsSyntheticMedia`, and `hasPaidProductPlacement` configurations.
+- Added aspect ratio auto-detection using `ffprobe` to determine if the video is a Short (vertical/square) or normal (horizontal) video, updating the success output URL format accordingly.
+
+### Changed
+- Migrated video upload metadata from hardcoded C++ variables in `uploader.cpp` to the external JSON configuration file `video_metadata.json`.
+- Updated `CMakeLists.txt` to use configure-time `configure_file` copying for `client_secrets.json` and `video_metadata.json` to the build output directory, ensuring changes to config/secrets automatically sync on build.
+- Broadened OAuth scope in `get_refresh_token.cpp` to `"https://www.googleapis.com/auth/youtube"` to permit playlist management.
+
 ## [1.3.2] - 2026-05-22
 ### Added
 - Added CMake configuration to compile the automation tools into native executables, featuring a default uploader target and a non-default token retriever target.
@@ -134,6 +147,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `les13_01.tex` demonstrating structured document composition using `\input` for frontmatter/chapters/appendices and `\tableofcontents` with `biblatex`/`biber` for bibliography, compiled via `genPdfWithCitation.sh`.
 - Added supporting chapter/structure files (`front.tex`, `chap1.tex`, `chap2.tex`, `append.tex`, `pref.tex`, `frontcover.tex`, `backcover.tex`, `copyright.tex`, `dedication.tex`) for the multi-file book document.
 - Added `les13_more_01.tex` exploring the `imakeidx` package for index generation with `\index` entries and `\printindex`, using the `noautomatic` option to work correctly with the `build/` output directory.
+- Created `genPdfWithIndex.sh` script for the 3-step index compilation workflow (pdflatex → makeindex → pdflatex), running `makeindex` on `./build/*.idx` to resolve the path mismatch caused by `-output-directory`.
+- Refactored `genPdfWithCitation.sh` and `genPdfWithIndex.sh` to extract the repeated `pdflatex` invocation into a reusable `PDFLATEX_CMD` variable for DRY maintainability.
+- Completed learnlatex.org Lesson 14.
+- Added `les14_01.tex` exploring Unicode engines (XeTeX/LuaTeX) and the `fontspec` package, with multi-script support (Latin, Greek, Chinese, Kannada).
+- Added `les14_more_01.tex` demonstrating Lua integration in LaTeX using `\directlua`.
+- Created `genPdfWithXelatex.sh` and `genPdfWithLualatex.sh` build scripts for Unicode-aware compilation.
 - Created `genPdfWithIndex.sh` script for the 3-step index compilation workflow (pdflatex → makeindex → pdflatex), running `makeindex` on `./build/*.idx` to resolve the path mismatch caused by `-output-directory`.
 - Refactored `genPdfWithCitation.sh` and `genPdfWithIndex.sh` to extract the repeated `pdflatex` invocation into a reusable `PDFLATEX_CMD` variable for DRY maintainability.
 - Completed learnlatex.org Lesson 14.

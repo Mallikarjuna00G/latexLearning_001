@@ -71,7 +71,7 @@ int main() {
 
   // 2. Construct the Google OAuth authorization URL
   std::string redirect_uri = "http://localhost:8080";
-  std::string scope = "https://www.googleapis.com/auth/youtube.upload";
+  std::string scope = "https://www.googleapis.com/auth/youtube";
   std::string auth_url = "https://accounts.google.com/o/oauth2/v2/auth?"
                          "client_id=" +
                          client_id + "&redirect_uri=" + redirect_uri +
