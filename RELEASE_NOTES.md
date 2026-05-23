@@ -1,5 +1,14 @@
 # Release Notes
 
+## [v1.4.0] - TikZ Tutorial Chapter 3 Completion (Petri-Net for Hagen)
+
+**Chapter 3 Completed!**
+This minor release marks the completion of Chapter 3 ("Tutorial: A Petri-Net for Hagen") of the TikZ & PGF manual, wrapping up the design of Hagen's Petri-net with complete, polished code.
+
+**Highlights:**
+- **Petri-Net Complete Code**: Constructed the complete final layout for Hagen's Petri-net diagram (section 3.14).
+- **Milestone Reached**: Completed all sections of the Chapter 3 tutorial.
+
 ## [v1.3.6] - TikZ Tutorial Chapter 3 Continuation (Labels next to lines, Snaked lines & Layers)
 
 **Continuing Chapter 3!**

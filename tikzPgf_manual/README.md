@@ -93,12 +93,18 @@
 - ch3p12_003: https://youtube.com/shorts/p43pXTemqv0
 - ch3p12_004: https://youtube.com/shorts/auy6ZHbc8mM
 - ch3p13_001: https://youtube.com/shorts/YRDRv5r2yD8
+- ch3p14_001:
+   - part1: https://youtube.com/shorts/HkKVKfnWUSY
+   - part2: https://youtube.com/shorts/wcTua5lWYLY
+   - part3: https://youtube.com/shorts/yWHcZNk8rEc
+   - part4: https://youtube.com/shorts/UMYMhBuu1qA
+   - part5: https://youtube.com/shorts/NAxEC8qryi8
 
 | LaTeX | TikZ & PGF | #latex #tikz #pgf
 
 Playlist TikzPgf_Set1: https://www.youtube.com/playlist?list=PLrc97KaHTPpsLnX8gIxdofCyHpQT3EYP3
 
-latex,tikz,pgf,latex-graphics
+latex,tikz,pgf,latex-graphics,coding
 
 
 ## Youtube API handling setup

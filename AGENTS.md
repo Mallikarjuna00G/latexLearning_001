@@ -34,10 +34,8 @@ Do not do anything else.
 
 ---
 
-I completed sections 3.11 - 3.13.
-- 3.11: Adding labels next to lines
-- 3.12: Adding the snaked line & multi-line text
-- 3.13: Using layers: The background rectangles
+I completed section 3.14.
+- 3.14: Petri-net for Hagen complete code
 
 Update the documentation files
 - RELEASE_NOTES.md
@@ -45,6 +43,8 @@ Update the documentation files
 - CHANGELOG.md
 
 No need to list the tex file names in the documentation files.
+
+By this we actually completed ch03 as well. So accordingly update the version.
 
 Git track and go for git commit.
 

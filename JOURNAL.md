@@ -2,6 +2,9 @@
 
 ## 2026-05-23
 - **TikZ & PGF Manual Study (continued):**
+  - **TikZ Chapter 3 Completion (Section 3.14) (v1.4.0):**
+    - Explored the complete code construction for the **Petri-net for Hagen** (section 3.14).
+    - **Milestone:** Successfully completed Chapter 3 ("Tutorial: A Petri-Net for Hagen") of the TikZ & PGF manual.
   - **TikZ Chapter 3 (Sections 3.11 - 3.13) (v1.3.6):**
     - Explored **Adding labels next to lines** (section 3.11).
     - Learned about **Adding the snaked line & multi-line text** (section 3.12).
